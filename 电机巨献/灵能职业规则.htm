@@ -7,702 +7,676 @@
 <style>
 html,body { 
 	/* Default Font */
-	font-family: Arial, Helvetica, sans-serif;
+	FONT-FAMILY: Arial, Helvetica, sans-serif;
 	font-size: 11pt;
 }
 </style>
 
+
+<style id="codex-reference-style">
+html,body { font-family: Arial, Helvetica, sans-serif; font-size: 11pt; color: #333333; line-height: 1.5; }
+body, body div, body p, body span, body td, body th, body li { font-family: Arial, Helvetica, sans-serif !important; }
+body { margin: 8px; }
+h1,h2,h3 { color: #800000 !important; font-family: Arial, Helvetica, sans-serif !important; }
+h1 span,h2 span,h3 span { color: inherit; }
+h1 { margin: 13pt 0 6pt; font-size: 180%; }
+h2 { margin: 13pt 0 6pt; font-size: 155%; }
+h3 { margin: 10pt 0 5pt; font-size: 125%; }
+h4 { color: #704cd9; margin: 10pt 0 4pt; font-size: 140%; }
+h5,h6 { color: #800000; margin: 8pt 0 4pt; font-weight: bold; }
+p,div { line-height: 1.5; }
+body > div, .body-text, .paragraph { margin-top: 3pt; margin-bottom: 3pt; }
+ul,ol { margin-left: 24px; margin-top: 0; margin-bottom: 8px; padding-left: 18px; }
+blockquote { margin-left: 24px; margin-top: 0; margin-bottom: 8px; }
+u { color: #008000; font-weight: bold; text-decoration: none; }
+u em,u i { color: #704CD9; font-style: italic; font-weight: bold; }
+em u,i u { color: #0000ff; font-style: normal; font-weight: bold; }
+b u,u b,strong u,u strong { color: #ee3300; font-style: normal; font-weight: bold; }
+table { border-collapse: collapse; border-spacing: 0; margin: 3pt 0; font-size: 11pt; }
+td,th { padding: 2px 4px; vertical-align: top; line-height: 1.35; }
+th, td strong, td b { color: inherit; }
+table.basic,table.center,table.part { width: auto; border-collapse: collapse; border-spacing: 0; border: 0; }
+table.center { text-align: center; }
+table.part th { font-weight: normal; text-align: center; }
+p.sum { font-size: 115%; margin-top: -8px; margin-bottom: -8px; color: #808080; font-weight: bold; }
+.feature-title,.trait-title { color: #800000 !important; font-weight: bold; }
+.feature-level { color: #333333 !important; font-style: italic; }
+.rite-title { color: #4a0000; font-weight: bold; }
+body[data-codex-page-type="专长"] .feat-title,
+body[data-codex-page-type="专长"] b > span:first-child,
+body[data-codex-page-type="职业/特性"] .feature-title,
+body[data-codex-page-type="种族"] .trait-title { color: #800000 !important; }
+</style>
 </head>
 
-<body>
-<H2 style="MARGIN: 13pt 0cm"><SPAN 
-style='FONT-FAMILY: 宋体; mso-ascii-font-family: "等线 Light"; mso-hansi-font-family: "等线 Light"'><SPAN 
-style="FONT-SIZE: 16pt; TEXT-DECORATION: ; FONT-FAMILY: 微软雅黑; VERTICAL-ALIGN: baseline; BACKGROUND: none transparent scroll repeat 0% 0%; FONT-WEIGHT: bold; COLOR: #333333; FONT-STYLE: normal; LETTER-SPACING: 0pt; mso-font-width: 100%; text-decoration-color: " 
-data-font-family="微软雅黑">灵能职业规则</SPAN><SPAN lang=EN-US 
-style="FONT-SIZE: 16pt; TEXT-DECORATION: ; FONT-FAMILY: 微软雅黑; VERTICAL-ALIGN: baseline; BACKGROUND: none transparent scroll repeat 0% 0%; FONT-WEIGHT: bold; COLOR: #333333; FONT-STYLE: normal; LETTER-SPACING: 0pt; mso-font-width: 100%; text-decoration-color: "><o:p></O:P></SPAN>
-<DIV class=document>
-<DIV class=section>
-<TABLE class=MsoTableGrid 
-style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; BORDER-COLLAPSE: collapse; BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; mso-table-layout-alt: fixed; mso-border-alt: solid white .75pt; mso-yfti-tbllook: 1184; mso-padding-alt: 0cm 5.4pt 0cm 5.4pt; mso-border-insideh: .75pt solid white; mso-border-insidev: .75pt solid white" 
+<body data-codex-page-type="灵能职业/特性">
+<h2>灵能职业规则</h2>
+<DIV class=document><DIV class=section><TABLE 
+style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; BORDER-COLLAPSE: collapse; BORDER-BOTTOM: medium none; BORDER-LEFT: medium none;" 
 cellSpacing=0 cellPadding=0 border=1>
   
-  <TR style="mso-yfti-irow: 0; mso-yfti-firstrow: yes">
-    <TD                                                  style="BORDER-TOP: white 1pt solid; BORDER-RIGHT: white 1pt solid; WIDTH: 104.25pt; BORDER-BOTTOM: #f2f2f2 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: white 1pt solid; PADDING-RIGHT: 5.4pt; BACKGROUND-COLOR: transparent; mso-border-alt: solid white .75pt; mso-border-bottom-alt: solid #F2F2F2 .75pt"     vAlign=top width=139>
-      <P class=MsoNormal 
-      style="MARGIN: 0cm; LINE-HEIGHT: 16pt; mso-line-height-rule: exactly; mso-add-space: auto"><B 
-      style="mso-bidi-font-weight: normal"><SPAN 
-      style="FONT-SIZE: 10.5pt; FONT-FAMILY: 等线; COLOR: black; mso-bidi-font-family: 等线; mso-bidi-font-size: 12.0pt">职业等级<SPAN 
-      lang=EN-US><o:p></O:P></SPAN></SPAN></B></P></TD>
-    <TD                                                    style="BORDER-TOP: white 1pt solid; BORDER-RIGHT: white 1pt solid; WIDTH: 104.25pt; BORDER-BOTTOM: #f2f2f2 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 5.4pt; BACKGROUND-COLOR: transparent; mso-border-alt: solid white .75pt; mso-border-bottom-alt: solid #F2F2F2 .75pt; mso-border-left-alt: solid white .75pt"     vAlign=top width=139>
-      <P class=MsoNormal 
-      style="MARGIN: 0cm; LINE-HEIGHT: 16pt; mso-line-height-rule: exactly; mso-add-space: auto"><B 
-      style="mso-bidi-font-weight: normal"><SPAN 
-      style="FONT-SIZE: 10.5pt; FONT-FAMILY: 等线; COLOR: black; mso-bidi-font-family: 等线; mso-bidi-font-size: 12.0pt">已知天赋<SPAN 
-      lang=EN-US><o:p></O:P></SPAN></SPAN></B></P></TD>
-    <TD                                                    style="BORDER-TOP: white 1pt solid; BORDER-RIGHT: white 1pt solid; WIDTH: 104.25pt; BORDER-BOTTOM: #f2f2f2 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 5.4pt; BACKGROUND-COLOR: transparent; mso-border-alt: solid white .75pt; mso-border-bottom-alt: solid #F2F2F2 .75pt; mso-border-left-alt: solid white .75pt"     vAlign=top width=139>
-      <P class=MsoNormal 
-      style="MARGIN: 0cm; LINE-HEIGHT: 16pt; mso-line-height-rule: exactly; mso-add-space: auto"><B 
-      style="mso-bidi-font-weight: normal"><SPAN 
-      style="FONT-SIZE: 10.5pt; FONT-FAMILY: 等线; COLOR: black; mso-bidi-font-family: 等线; mso-bidi-font-size: 12.0pt">已知灵术<SPAN 
-      lang=EN-US><o:p></O:P></SPAN></SPAN></B></P></TD>
-    <TD                                                    style="BORDER-TOP: white 1pt solid; BORDER-RIGHT: white 1pt solid; WIDTH: 104.25pt; BORDER-BOTTOM: #f2f2f2 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 5.4pt; BACKGROUND-COLOR: transparent; mso-border-alt: solid white .75pt; mso-border-bottom-alt: solid #F2F2F2 .75pt; mso-border-left-alt: solid white .75pt"     vAlign=top width=139>
-      <P class=MsoNormal 
-      style="MARGIN: 0cm; LINE-HEIGHT: 16pt; mso-line-height-rule: exactly; mso-add-space: auto"><B 
-      style="mso-bidi-font-weight: normal"><SPAN 
-      style="FONT-SIZE: 10.5pt; FONT-FAMILY: 等线; COLOR: black; mso-bidi-font-family: 等线; mso-bidi-font-size: 12.0pt">灵力点<SPAN 
-      lang=EN-US><o:p></O:P></SPAN></SPAN></B></P></TD>
-    <TD                                                    style="BORDER-TOP: white 1pt solid; BORDER-RIGHT: white 1pt solid; WIDTH: 104.25pt; BORDER-BOTTOM: #f2f2f2 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 5.4pt; BACKGROUND-COLOR: transparent; mso-border-alt: solid white .75pt; mso-border-bottom-alt: solid #F2F2F2 .75pt; mso-border-left-alt: solid white .75pt"     vAlign=top width=139>
-      <P class=MsoNormal 
-      style="MARGIN: 0cm; LINE-HEIGHT: 16pt; mso-line-height-rule: exactly; mso-add-space: auto"><B 
-      style="mso-bidi-font-weight: normal"><SPAN 
-      style="FONT-SIZE: 10.5pt; FONT-FAMILY: 等线; COLOR: black; mso-bidi-font-family: 等线; mso-bidi-font-size: 12.0pt">灵力限制<SPAN 
-      lang=EN-US><o:p></O:P></SPAN></SPAN></B></P></TD></TR>
-  <TR style="mso-yfti-irow: 1">
-    <TD                                                style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: #f2f2f2 1pt solid; WIDTH: 104.25pt; BACKGROUND: #f2f2f2; BORDER-BOTTOM: #f2f2f2 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: #f2f2f2 1pt solid; PADDING-RIGHT: 5.4pt; mso-border-alt: solid #F2F2F2 .75pt; mso-border-top-alt: solid #F2F2F2 .75pt"     vAlign=top width=139>
-      <P class=MsoNormal 
-      style="MARGIN: 0cm; LINE-HEIGHT: 16pt; mso-line-height-rule: exactly; mso-add-space: auto"><SPAN 
-      lang=EN-US 
-      style="FONT-SIZE: 10.5pt; FONT-FAMILY: 等线; COLOR: black; mso-bidi-font-family: 等线; mso-bidi-font-size: 12.0pt">1<SUP>st<o:p></O:P></SUP></SPAN></P></TD>
-    <TD                                                  style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: #f2f2f2 1pt solid; WIDTH: 104.25pt; BACKGROUND: #f2f2f2; BORDER-BOTTOM: #f2f2f2 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 5.4pt; mso-border-alt: solid #F2F2F2 .75pt; mso-border-left-alt: solid #F2F2F2 .75pt; mso-border-top-alt: solid #F2F2F2 .75pt"     vAlign=top width=139>
-      <P class=MsoNormal 
-      style="MARGIN: 0cm; LINE-HEIGHT: 16pt; mso-line-height-rule: exactly; mso-add-space: auto"><SPAN 
-      lang=EN-US 
-      style="FONT-SIZE: 10.5pt; FONT-FAMILY: 等线; COLOR: black; mso-bidi-font-family: 等线; mso-bidi-font-size: 12.0pt">1<o:p></O:P></SPAN></P></TD>
-    <TD                                                  style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: #f2f2f2 1pt solid; WIDTH: 104.25pt; BACKGROUND: #f2f2f2; BORDER-BOTTOM: #f2f2f2 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 5.4pt; mso-border-alt: solid #F2F2F2 .75pt; mso-border-left-alt: solid #F2F2F2 .75pt; mso-border-top-alt: solid #F2F2F2 .75pt"     vAlign=top width=139>
-      <P class=MsoNormal 
-      style="MARGIN: 0cm; LINE-HEIGHT: 16pt; mso-line-height-rule: exactly; mso-add-space: auto"><SPAN 
-      lang=EN-US 
-      style="FONT-SIZE: 10.5pt; FONT-FAMILY: 等线; COLOR: black; mso-bidi-font-family: 等线; mso-bidi-font-size: 12.0pt">1<o:p></O:P></SPAN></P></TD>
-    <TD                                                  style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: #f2f2f2 1pt solid; WIDTH: 104.25pt; BACKGROUND: #f2f2f2; BORDER-BOTTOM: #f2f2f2 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 5.4pt; mso-border-alt: solid #F2F2F2 .75pt; mso-border-left-alt: solid #F2F2F2 .75pt; mso-border-top-alt: solid #F2F2F2 .75pt"     vAlign=top width=139>
-      <P class=MsoNormal 
-      style="MARGIN: 0cm; LINE-HEIGHT: 16pt; mso-line-height-rule: exactly; mso-add-space: auto"><SPAN 
-      lang=EN-US 
-      style="FONT-SIZE: 10.5pt; FONT-FAMILY: 等线; COLOR: black; mso-bidi-font-family: 等线; mso-bidi-font-size: 12.0pt">4<o:p></O:P></SPAN></P></TD>
-    <TD                                                  style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: #f2f2f2 1pt solid; WIDTH: 104.25pt; BACKGROUND: #f2f2f2; BORDER-BOTTOM: #f2f2f2 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 5.4pt; mso-border-alt: solid #F2F2F2 .75pt; mso-border-left-alt: solid #F2F2F2 .75pt; mso-border-top-alt: solid #F2F2F2 .75pt"     vAlign=top width=139>
-      <P class=MsoNormal 
-      style="MARGIN: 0cm; LINE-HEIGHT: 16pt; mso-line-height-rule: exactly; mso-add-space: auto"><SPAN 
-      lang=EN-US 
-      style="FONT-SIZE: 10.5pt; FONT-FAMILY: 等线; COLOR: black; mso-bidi-font-family: 等线; mso-bidi-font-size: 12.0pt">2<o:p></O:P></SPAN></P></TD></TR>
-  <TR style="mso-yfti-irow: 2">
-    <TD                                                    style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: white 1pt solid; WIDTH: 104.25pt; BORDER-BOTTOM: #f2f2f2 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: white 1pt solid; PADDING-RIGHT: 5.4pt; BACKGROUND-COLOR: transparent; mso-border-bottom-alt: #F2F2F2; mso-border-left-alt: white; mso-border-top-alt: #F2F2F2; mso-border-right-alt: white; mso-border-style-alt: solid; mso-border-width-alt: .75pt"     vAlign=top width=139>
-      <P class=MsoNormal 
-      style="MARGIN: 0cm; LINE-HEIGHT: 16pt; mso-line-height-rule: exactly; mso-add-space: auto"><SPAN 
-      lang=EN-US 
-      style="FONT-SIZE: 10.5pt; FONT-FAMILY: 等线; COLOR: black; mso-bidi-font-family: 等线; mso-bidi-font-size: 12.0pt">2<SUP>nd<o:p></O:P></SUP></SPAN></P></TD>
-    <TD                                                  style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: white 1pt solid; WIDTH: 104.25pt; BORDER-BOTTOM: #f2f2f2 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 5.4pt; BACKGROUND-COLOR: transparent; mso-border-bottom-alt: #F2F2F2; mso-border-left-alt: white; mso-border-top-alt: #F2F2F2; mso-border-right-alt: white; mso-border-style-alt: solid; mso-border-width-alt: .75pt"     vAlign=top width=139>
-      <P class=MsoNormal 
-      style="MARGIN: 0cm; LINE-HEIGHT: 16pt; mso-line-height-rule: exactly; mso-add-space: auto"><SPAN 
-      lang=EN-US 
-      style="FONT-SIZE: 10.5pt; FONT-FAMILY: 等线; COLOR: black; mso-bidi-font-family: 等线; mso-bidi-font-size: 12.0pt">1<o:p></O:P></SPAN></P></TD>
-    <TD                                                  style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: white 1pt solid; WIDTH: 104.25pt; BORDER-BOTTOM: #f2f2f2 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 5.4pt; BACKGROUND-COLOR: transparent; mso-border-bottom-alt: #F2F2F2; mso-border-left-alt: white; mso-border-top-alt: #F2F2F2; mso-border-right-alt: white; mso-border-style-alt: solid; mso-border-width-alt: .75pt"     vAlign=top width=139>
-      <P class=MsoNormal 
-      style="MARGIN: 0cm; LINE-HEIGHT: 16pt; mso-line-height-rule: exactly; mso-add-space: auto"><SPAN 
-      lang=EN-US 
-      style="FONT-SIZE: 10.5pt; FONT-FAMILY: 等线; COLOR: black; mso-bidi-font-family: 等线; mso-bidi-font-size: 12.0pt">2<o:p></O:P></SPAN></P></TD>
-    <TD                                                  style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: white 1pt solid; WIDTH: 104.25pt; BORDER-BOTTOM: #f2f2f2 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 5.4pt; BACKGROUND-COLOR: transparent; mso-border-bottom-alt: #F2F2F2; mso-border-left-alt: white; mso-border-top-alt: #F2F2F2; mso-border-right-alt: white; mso-border-style-alt: solid; mso-border-width-alt: .75pt"     vAlign=top width=139>
-      <P class=MsoNormal 
-      style="MARGIN: 0cm; LINE-HEIGHT: 16pt; mso-line-height-rule: exactly; mso-add-space: auto"><SPAN 
-      lang=EN-US 
-      style="FONT-SIZE: 10.5pt; FONT-FAMILY: 等线; COLOR: black; mso-bidi-font-family: 等线; mso-bidi-font-size: 12.0pt">6<o:p></O:P></SPAN></P></TD>
-    <TD                                                  style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: white 1pt solid; WIDTH: 104.25pt; BORDER-BOTTOM: #f2f2f2 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 5.4pt; BACKGROUND-COLOR: transparent; mso-border-bottom-alt: #F2F2F2; mso-border-left-alt: white; mso-border-top-alt: #F2F2F2; mso-border-right-alt: white; mso-border-style-alt: solid; mso-border-width-alt: .75pt"     vAlign=top width=139>
-      <P class=MsoNormal 
-      style="MARGIN: 0cm; LINE-HEIGHT: 16pt; mso-line-height-rule: exactly; mso-add-space: auto"><SPAN 
-      lang=EN-US 
-      style="FONT-SIZE: 10.5pt; FONT-FAMILY: 等线; COLOR: black; mso-bidi-font-family: 等线; mso-bidi-font-size: 12.0pt">2<o:p></O:P></SPAN></P></TD></TR>
-  <TR style="mso-yfti-irow: 3">
-    <TD                                                style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: #f2f2f2 1pt solid; WIDTH: 104.25pt; BACKGROUND: #f2f2f2; BORDER-BOTTOM: #f2f2f2 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: #f2f2f2 1pt solid; PADDING-RIGHT: 5.4pt; mso-border-alt: solid #F2F2F2 .75pt; mso-border-top-alt: solid #F2F2F2 .75pt"     vAlign=top width=139>
-      <P class=MsoNormal 
-      style="MARGIN: 0cm; LINE-HEIGHT: 16pt; mso-line-height-rule: exactly; mso-add-space: auto"><SPAN 
-      lang=EN-US 
-      style="FONT-SIZE: 10.5pt; FONT-FAMILY: 等线; COLOR: black; mso-bidi-font-family: 等线; mso-bidi-font-size: 12.0pt">3<SUP>rd<o:p></O:P></SUP></SPAN></P></TD>
-    <TD                                                  style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: #f2f2f2 1pt solid; WIDTH: 104.25pt; BACKGROUND: #f2f2f2; BORDER-BOTTOM: #f2f2f2 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 5.4pt; mso-border-alt: solid #F2F2F2 .75pt; mso-border-left-alt: solid #F2F2F2 .75pt; mso-border-top-alt: solid #F2F2F2 .75pt"     vAlign=top width=139>
-      <P class=MsoNormal 
-      style="MARGIN: 0cm; LINE-HEIGHT: 16pt; mso-line-height-rule: exactly; mso-add-space: auto"><SPAN 
-      lang=EN-US 
-      style="FONT-SIZE: 10.5pt; FONT-FAMILY: 等线; COLOR: black; mso-bidi-font-family: 等线; mso-bidi-font-size: 12.0pt">2<o:p></O:P></SPAN></P></TD>
-    <TD                                                  style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: #f2f2f2 1pt solid; WIDTH: 104.25pt; BACKGROUND: #f2f2f2; BORDER-BOTTOM: #f2f2f2 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 5.4pt; mso-border-alt: solid #F2F2F2 .75pt; mso-border-left-alt: solid #F2F2F2 .75pt; mso-border-top-alt: solid #F2F2F2 .75pt"     vAlign=top width=139>
-      <P class=MsoNormal 
-      style="MARGIN: 0cm; LINE-HEIGHT: 16pt; mso-line-height-rule: exactly; mso-add-space: auto"><SPAN 
-      lang=EN-US 
-      style="FONT-SIZE: 10.5pt; FONT-FAMILY: 等线; COLOR: black; mso-bidi-font-family: 等线; mso-bidi-font-size: 12.0pt">3<o:p></O:P></SPAN></P></TD>
-    <TD                                                  style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: #f2f2f2 1pt solid; WIDTH: 104.25pt; BACKGROUND: #f2f2f2; BORDER-BOTTOM: #f2f2f2 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 5.4pt; mso-border-alt: solid #F2F2F2 .75pt; mso-border-left-alt: solid #F2F2F2 .75pt; mso-border-top-alt: solid #F2F2F2 .75pt"     vAlign=top width=139>
-      <P class=MsoNormal 
-      style="MARGIN: 0cm; LINE-HEIGHT: 16pt; mso-line-height-rule: exactly; mso-add-space: auto"><SPAN 
-      lang=EN-US 
-      style="FONT-SIZE: 10.5pt; FONT-FAMILY: 等线; COLOR: black; mso-bidi-font-family: 等线; mso-bidi-font-size: 12.0pt">14<o:p></O:P></SPAN></P></TD>
-    <TD                                                  style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: #f2f2f2 1pt solid; WIDTH: 104.25pt; BACKGROUND: #f2f2f2; BORDER-BOTTOM: #f2f2f2 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 5.4pt; mso-border-alt: solid #F2F2F2 .75pt; mso-border-left-alt: solid #F2F2F2 .75pt; mso-border-top-alt: solid #F2F2F2 .75pt"     vAlign=top width=139>
-      <P class=MsoNormal 
-      style="MARGIN: 0cm; LINE-HEIGHT: 16pt; mso-line-height-rule: exactly; mso-add-space: auto"><SPAN 
-      lang=EN-US 
-      style="FONT-SIZE: 10.5pt; FONT-FAMILY: 等线; COLOR: black; mso-bidi-font-family: 等线; mso-bidi-font-size: 12.0pt">3<o:p></O:P></SPAN></P></TD></TR>
-  <TR style="mso-yfti-irow: 4">
-    <TD                                                    style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: white 1pt solid; WIDTH: 104.25pt; BORDER-BOTTOM: #f2f2f2 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: white 1pt solid; PADDING-RIGHT: 5.4pt; BACKGROUND-COLOR: transparent; mso-border-bottom-alt: #F2F2F2; mso-border-left-alt: white; mso-border-top-alt: #F2F2F2; mso-border-right-alt: white; mso-border-style-alt: solid; mso-border-width-alt: .75pt"     vAlign=top width=139>
-      <P class=MsoNormal 
-      style="MARGIN: 0cm; LINE-HEIGHT: 16pt; mso-line-height-rule: exactly; mso-add-space: auto"><SPAN 
-      lang=EN-US 
-      style="FONT-SIZE: 10.5pt; FONT-FAMILY: 等线; COLOR: black; mso-bidi-font-family: 等线; mso-bidi-font-size: 12.0pt">4<SUP>th 
-      <o:p></O:P></SUP></SPAN></P></TD>
-    <TD                                                  style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: white 1pt solid; WIDTH: 104.25pt; BORDER-BOTTOM: #f2f2f2 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 5.4pt; BACKGROUND-COLOR: transparent; mso-border-bottom-alt: #F2F2F2; mso-border-left-alt: white; mso-border-top-alt: #F2F2F2; mso-border-right-alt: white; mso-border-style-alt: solid; mso-border-width-alt: .75pt"     vAlign=top width=139>
-      <P class=MsoNormal 
-      style="MARGIN: 0cm; LINE-HEIGHT: 16pt; mso-line-height-rule: exactly; mso-add-space: auto"><SPAN 
-      lang=EN-US 
-      style="FONT-SIZE: 10.5pt; FONT-FAMILY: 等线; COLOR: black; mso-bidi-font-family: 等线; mso-bidi-font-size: 12.0pt">2<o:p></O:P></SPAN></P></TD>
-    <TD                                                  style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: white 1pt solid; WIDTH: 104.25pt; BORDER-BOTTOM: #f2f2f2 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 5.4pt; BACKGROUND-COLOR: transparent; mso-border-bottom-alt: #F2F2F2; mso-border-left-alt: white; mso-border-top-alt: #F2F2F2; mso-border-right-alt: white; mso-border-style-alt: solid; mso-border-width-alt: .75pt"     vAlign=top width=139>
-      <P class=MsoNormal 
-      style="MARGIN: 0cm; LINE-HEIGHT: 16pt; mso-line-height-rule: exactly; mso-add-space: auto"><SPAN 
-      lang=EN-US 
-      style="FONT-SIZE: 10.5pt; FONT-FAMILY: 等线; COLOR: black; mso-bidi-font-family: 等线; mso-bidi-font-size: 12.0pt">4<o:p></O:P></SPAN></P></TD>
-    <TD                                                  style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: white 1pt solid; WIDTH: 104.25pt; BORDER-BOTTOM: #f2f2f2 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 5.4pt; BACKGROUND-COLOR: transparent; mso-border-bottom-alt: #F2F2F2; mso-border-left-alt: white; mso-border-top-alt: #F2F2F2; mso-border-right-alt: white; mso-border-style-alt: solid; mso-border-width-alt: .75pt"     vAlign=top width=139>
-      <P class=MsoNormal 
-      style="MARGIN: 0cm; LINE-HEIGHT: 16pt; mso-line-height-rule: exactly; mso-add-space: auto"><SPAN 
-      lang=EN-US 
-      style="FONT-SIZE: 10.5pt; FONT-FAMILY: 等线; COLOR: black; mso-bidi-font-family: 等线; mso-bidi-font-size: 12.0pt">17<o:p></O:P></SPAN></P></TD>
-    <TD                                                  style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: white 1pt solid; WIDTH: 104.25pt; BORDER-BOTTOM: #f2f2f2 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 5.4pt; BACKGROUND-COLOR: transparent; mso-border-bottom-alt: #F2F2F2; mso-border-left-alt: white; mso-border-top-alt: #F2F2F2; mso-border-right-alt: white; mso-border-style-alt: solid; mso-border-width-alt: .75pt"     vAlign=top width=139>
-      <P class=MsoNormal 
-      style="MARGIN: 0cm; LINE-HEIGHT: 16pt; mso-line-height-rule: exactly; mso-add-space: auto"><SPAN 
-      lang=EN-US 
-      style="FONT-SIZE: 10.5pt; FONT-FAMILY: 等线; COLOR: black; mso-bidi-font-family: 等线; mso-bidi-font-size: 12.0pt">3<o:p></O:P></SPAN></P></TD></TR>
-  <TR style="mso-yfti-irow: 5">
-    <TD                                                style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: #f2f2f2 1pt solid; WIDTH: 104.25pt; BACKGROUND: #f2f2f2; BORDER-BOTTOM: #f2f2f2 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: #f2f2f2 1pt solid; PADDING-RIGHT: 5.4pt; mso-border-alt: solid #F2F2F2 .75pt; mso-border-top-alt: solid #F2F2F2 .75pt"     vAlign=top width=139>
-      <P class=MsoNormal 
-      style="MARGIN: 0cm; LINE-HEIGHT: 16pt; mso-line-height-rule: exactly; mso-add-space: auto"><SPAN 
-      lang=EN-US 
-      style="FONT-SIZE: 10.5pt; FONT-FAMILY: 等线; COLOR: black; mso-bidi-font-family: 等线; mso-bidi-font-size: 12.0pt">5<SUP>th</SUP><o:p></O:P></SPAN></P></TD>
-    <TD                                                  style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: #f2f2f2 1pt solid; WIDTH: 104.25pt; BACKGROUND: #f2f2f2; BORDER-BOTTOM: #f2f2f2 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 5.4pt; mso-border-alt: solid #F2F2F2 .75pt; mso-border-left-alt: solid #F2F2F2 .75pt; mso-border-top-alt: solid #F2F2F2 .75pt"     vAlign=top width=139>
-      <P class=MsoNormal 
-      style="MARGIN: 0cm; LINE-HEIGHT: 16pt; mso-line-height-rule: exactly; mso-add-space: auto"><SPAN 
-      lang=EN-US 
-      style="FONT-SIZE: 10.5pt; FONT-FAMILY: 等线; COLOR: black; mso-bidi-font-family: 等线; mso-bidi-font-size: 12.0pt">2<o:p></O:P></SPAN></P></TD>
-    <TD                                                  style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: #f2f2f2 1pt solid; WIDTH: 104.25pt; BACKGROUND: #f2f2f2; BORDER-BOTTOM: #f2f2f2 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 5.4pt; mso-border-alt: solid #F2F2F2 .75pt; mso-border-left-alt: solid #F2F2F2 .75pt; mso-border-top-alt: solid #F2F2F2 .75pt"     vAlign=top width=139>
-      <P class=MsoNormal 
-      style="MARGIN: 0cm; LINE-HEIGHT: 16pt; mso-line-height-rule: exactly; mso-add-space: auto"><SPAN 
-      lang=EN-US 
-      style="FONT-SIZE: 10.5pt; FONT-FAMILY: 等线; COLOR: black; mso-bidi-font-family: 等线; mso-bidi-font-size: 12.0pt">5<o:p></O:P></SPAN></P></TD>
-    <TD                                                  style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: #f2f2f2 1pt solid; WIDTH: 104.25pt; BACKGROUND: #f2f2f2; BORDER-BOTTOM: #f2f2f2 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 5.4pt; mso-border-alt: solid #F2F2F2 .75pt; mso-border-left-alt: solid #F2F2F2 .75pt; mso-border-top-alt: solid #F2F2F2 .75pt"     vAlign=top width=139>
-      <P class=MsoNormal 
-      style="MARGIN: 0cm; LINE-HEIGHT: 16pt; mso-line-height-rule: exactly; mso-add-space: auto"><SPAN 
-      lang=EN-US 
-      style="FONT-SIZE: 10.5pt; FONT-FAMILY: 等线; COLOR: black; mso-bidi-font-family: 等线; mso-bidi-font-size: 12.0pt">27<o:p></O:P></SPAN></P></TD>
-    <TD                                                  style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: #f2f2f2 1pt solid; WIDTH: 104.25pt; BACKGROUND: #f2f2f2; BORDER-BOTTOM: #f2f2f2 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 5.4pt; mso-border-alt: solid #F2F2F2 .75pt; mso-border-left-alt: solid #F2F2F2 .75pt; mso-border-top-alt: solid #F2F2F2 .75pt"     vAlign=top width=139>
-      <P class=MsoNormal 
-      style="MARGIN: 0cm; LINE-HEIGHT: 16pt; mso-line-height-rule: exactly; mso-add-space: auto"><SPAN 
-      lang=EN-US 
-      style="FONT-SIZE: 10.5pt; FONT-FAMILY: 等线; COLOR: black; mso-bidi-font-family: 等线; mso-bidi-font-size: 12.0pt">5<o:p></O:P></SPAN></P></TD></TR>
-  <TR style="mso-yfti-irow: 6">
-    <TD                                                    style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: white 1pt solid; WIDTH: 104.25pt; BORDER-BOTTOM: #f2f2f2 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: white 1pt solid; PADDING-RIGHT: 5.4pt; BACKGROUND-COLOR: transparent; mso-border-bottom-alt: #F2F2F2; mso-border-left-alt: white; mso-border-top-alt: #F2F2F2; mso-border-right-alt: white; mso-border-style-alt: solid; mso-border-width-alt: .75pt"     vAlign=top width=139>
-      <P class=MsoNormal 
-      style="MARGIN: 0cm; LINE-HEIGHT: 16pt; mso-line-height-rule: exactly; mso-add-space: auto"><SPAN 
-      lang=EN-US 
-      style="FONT-SIZE: 10.5pt; FONT-FAMILY: 等线; COLOR: black; mso-bidi-font-family: 等线; mso-bidi-font-size: 12.0pt">6<SUP>th</SUP><o:p></O:P></SPAN></P></TD>
-    <TD                                                  style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: white 1pt solid; WIDTH: 104.25pt; BORDER-BOTTOM: #f2f2f2 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 5.4pt; BACKGROUND-COLOR: transparent; mso-border-bottom-alt: #F2F2F2; mso-border-left-alt: white; mso-border-top-alt: #F2F2F2; mso-border-right-alt: white; mso-border-style-alt: solid; mso-border-width-alt: .75pt"     vAlign=top width=139>
-      <P class=MsoNormal 
-      style="MARGIN: 0cm; LINE-HEIGHT: 16pt; mso-line-height-rule: exactly; mso-add-space: auto"><SPAN 
-      lang=EN-US 
-      style="FONT-SIZE: 10.5pt; FONT-FAMILY: 等线; COLOR: black; mso-bidi-font-family: 等线; mso-bidi-font-size: 12.0pt">3<o:p></O:P></SPAN></P></TD>
-    <TD                                                  style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: white 1pt solid; WIDTH: 104.25pt; BORDER-BOTTOM: #f2f2f2 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 5.4pt; BACKGROUND-COLOR: transparent; mso-border-bottom-alt: #F2F2F2; mso-border-left-alt: white; mso-border-top-alt: #F2F2F2; mso-border-right-alt: white; mso-border-style-alt: solid; mso-border-width-alt: .75pt"     vAlign=top width=139>
-      <P class=MsoNormal 
-      style="MARGIN: 0cm; LINE-HEIGHT: 16pt; mso-line-height-rule: exactly; mso-add-space: auto"><SPAN 
-      lang=EN-US 
-      style="FONT-SIZE: 10.5pt; FONT-FAMILY: 等线; COLOR: black; mso-bidi-font-family: 等线; mso-bidi-font-size: 12.0pt">5<o:p></O:P></SPAN></P></TD>
-    <TD                                                  style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: white 1pt solid; WIDTH: 104.25pt; BORDER-BOTTOM: #f2f2f2 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 5.4pt; BACKGROUND-COLOR: transparent; mso-border-bottom-alt: #F2F2F2; mso-border-left-alt: white; mso-border-top-alt: #F2F2F2; mso-border-right-alt: white; mso-border-style-alt: solid; mso-border-width-alt: .75pt"     vAlign=top width=139>
-      <P class=MsoNormal 
-      style="MARGIN: 0cm; LINE-HEIGHT: 16pt; mso-line-height-rule: exactly; mso-add-space: auto"><SPAN 
-      lang=EN-US 
-      style="FONT-SIZE: 10.5pt; FONT-FAMILY: 等线; COLOR: black; mso-bidi-font-family: 等线; mso-bidi-font-size: 12.0pt">32<o:p></O:P></SPAN></P></TD>
-    <TD                                                  style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: white 1pt solid; WIDTH: 104.25pt; BORDER-BOTTOM: #f2f2f2 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 5.4pt; BACKGROUND-COLOR: transparent; mso-border-bottom-alt: #F2F2F2; mso-border-left-alt: white; mso-border-top-alt: #F2F2F2; mso-border-right-alt: white; mso-border-style-alt: solid; mso-border-width-alt: .75pt"     vAlign=top width=139>
-      <P class=MsoNormal 
-      style="MARGIN: 0cm; LINE-HEIGHT: 16pt; mso-line-height-rule: exactly; mso-add-space: auto"><SPAN 
-      lang=EN-US 
-      style="FONT-SIZE: 10.5pt; FONT-FAMILY: 等线; COLOR: black; mso-bidi-font-family: 等线; mso-bidi-font-size: 12.0pt">5<o:p></O:P></SPAN></P></TD></TR>
-  <TR style="mso-yfti-irow: 7">
-    <TD                                                style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: #f2f2f2 1pt solid; WIDTH: 104.25pt; BACKGROUND: #f2f2f2; BORDER-BOTTOM: #f2f2f2 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: #f2f2f2 1pt solid; PADDING-RIGHT: 5.4pt; mso-border-alt: solid #F2F2F2 .75pt; mso-border-top-alt: solid #F2F2F2 .75pt"     vAlign=top width=139>
-      <P class=MsoNormal 
-      style="MARGIN: 0cm; LINE-HEIGHT: 16pt; mso-line-height-rule: exactly; mso-add-space: auto"><SPAN 
-      lang=EN-US 
-      style="FONT-SIZE: 10.5pt; FONT-FAMILY: 等线; COLOR: black; mso-bidi-font-family: 等线; mso-bidi-font-size: 12.0pt">7<SUP>th</SUP><o:p></O:P></SPAN></P></TD>
-    <TD                                                  style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: #f2f2f2 1pt solid; WIDTH: 104.25pt; BACKGROUND: #f2f2f2; BORDER-BOTTOM: #f2f2f2 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 5.4pt; mso-border-alt: solid #F2F2F2 .75pt; mso-border-left-alt: solid #F2F2F2 .75pt; mso-border-top-alt: solid #F2F2F2 .75pt"     vAlign=top width=139>
-      <P class=MsoNormal 
-      style="MARGIN: 0cm; LINE-HEIGHT: 16pt; mso-line-height-rule: exactly; mso-add-space: auto"><SPAN 
-      lang=EN-US 
-      style="FONT-SIZE: 10.5pt; FONT-FAMILY: 等线; COLOR: black; mso-bidi-font-family: 等线; mso-bidi-font-size: 12.0pt">3<o:p></O:P></SPAN></P></TD>
-    <TD                                                  style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: #f2f2f2 1pt solid; WIDTH: 104.25pt; BACKGROUND: #f2f2f2; BORDER-BOTTOM: #f2f2f2 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 5.4pt; mso-border-alt: solid #F2F2F2 .75pt; mso-border-left-alt: solid #F2F2F2 .75pt; mso-border-top-alt: solid #F2F2F2 .75pt"     vAlign=top width=139>
-      <P class=MsoNormal 
-      style="MARGIN: 0cm; LINE-HEIGHT: 16pt; mso-line-height-rule: exactly; mso-add-space: auto"><SPAN 
-      lang=EN-US 
-      style="FONT-SIZE: 10.5pt; FONT-FAMILY: 等线; COLOR: black; mso-bidi-font-family: 等线; mso-bidi-font-size: 12.0pt">6<o:p></O:P></SPAN></P></TD>
-    <TD                                                  style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: #f2f2f2 1pt solid; WIDTH: 104.25pt; BACKGROUND: #f2f2f2; BORDER-BOTTOM: #f2f2f2 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 5.4pt; mso-border-alt: solid #F2F2F2 .75pt; mso-border-left-alt: solid #F2F2F2 .75pt; mso-border-top-alt: solid #F2F2F2 .75pt"     vAlign=top width=139>
-      <P class=MsoNormal 
-      style="MARGIN: 0cm; LINE-HEIGHT: 16pt; mso-line-height-rule: exactly; mso-add-space: auto"><SPAN 
-      lang=EN-US 
-      style="FONT-SIZE: 10.5pt; FONT-FAMILY: 等线; COLOR: black; mso-bidi-font-family: 等线; mso-bidi-font-size: 12.0pt">38<o:p></O:P></SPAN></P></TD>
-    <TD                                                  style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: #f2f2f2 1pt solid; WIDTH: 104.25pt; BACKGROUND: #f2f2f2; BORDER-BOTTOM: #f2f2f2 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 5.4pt; mso-border-alt: solid #F2F2F2 .75pt; mso-border-left-alt: solid #F2F2F2 .75pt; mso-border-top-alt: solid #F2F2F2 .75pt"     vAlign=top width=139>
-      <P class=MsoNormal 
-      style="MARGIN: 0cm; LINE-HEIGHT: 16pt; mso-line-height-rule: exactly; mso-add-space: auto"><SPAN 
-      lang=EN-US 
-      style="FONT-SIZE: 10.5pt; FONT-FAMILY: 等线; COLOR: black; mso-bidi-font-family: 等线; mso-bidi-font-size: 12.0pt">6<o:p></O:P></SPAN></P></TD></TR>
-  <TR style="mso-yfti-irow: 8">
-    <TD                                                    style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: white 1pt solid; WIDTH: 104.25pt; BORDER-BOTTOM: #f2f2f2 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: white 1pt solid; PADDING-RIGHT: 5.4pt; BACKGROUND-COLOR: transparent; mso-border-bottom-alt: #F2F2F2; mso-border-left-alt: white; mso-border-top-alt: #F2F2F2; mso-border-right-alt: white; mso-border-style-alt: solid; mso-border-width-alt: .75pt"     vAlign=top width=139>
-      <P class=MsoNormal 
-      style="MARGIN: 0cm; LINE-HEIGHT: 16pt; mso-line-height-rule: exactly; mso-add-space: auto"><SPAN 
-      lang=EN-US 
-      style="FONT-SIZE: 10.5pt; FONT-FAMILY: 等线; COLOR: black; mso-bidi-font-family: 等线; mso-bidi-font-size: 12.0pt">8<SUP>th</SUP><o:p></O:P></SPAN></P></TD>
-    <TD                                                  style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: white 1pt solid; WIDTH: 104.25pt; BORDER-BOTTOM: #f2f2f2 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 5.4pt; BACKGROUND-COLOR: transparent; mso-border-bottom-alt: #F2F2F2; mso-border-left-alt: white; mso-border-top-alt: #F2F2F2; mso-border-right-alt: white; mso-border-style-alt: solid; mso-border-width-alt: .75pt"     vAlign=top width=139>
-      <P class=MsoNormal 
-      style="MARGIN: 0cm; LINE-HEIGHT: 16pt; mso-line-height-rule: exactly; mso-add-space: auto"><SPAN 
-      lang=EN-US 
-      style="FONT-SIZE: 10.5pt; FONT-FAMILY: 等线; COLOR: black; mso-bidi-font-family: 等线; mso-bidi-font-size: 12.0pt">3<o:p></O:P></SPAN></P></TD>
-    <TD                                                  style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: white 1pt solid; WIDTH: 104.25pt; BORDER-BOTTOM: #f2f2f2 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 5.4pt; BACKGROUND-COLOR: transparent; mso-border-bottom-alt: #F2F2F2; mso-border-left-alt: white; mso-border-top-alt: #F2F2F2; mso-border-right-alt: white; mso-border-style-alt: solid; mso-border-width-alt: .75pt"     vAlign=top width=139>
-      <P class=MsoNormal 
-      style="MARGIN: 0cm; LINE-HEIGHT: 16pt; mso-line-height-rule: exactly; mso-add-space: auto"><SPAN 
-      lang=EN-US 
-      style="FONT-SIZE: 10.5pt; FONT-FAMILY: 等线; COLOR: black; mso-bidi-font-family: 等线; mso-bidi-font-size: 12.0pt">6<o:p></O:P></SPAN></P></TD>
-    <TD                                                  style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: white 1pt solid; WIDTH: 104.25pt; BORDER-BOTTOM: #f2f2f2 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 5.4pt; BACKGROUND-COLOR: transparent; mso-border-bottom-alt: #F2F2F2; mso-border-left-alt: white; mso-border-top-alt: #F2F2F2; mso-border-right-alt: white; mso-border-style-alt: solid; mso-border-width-alt: .75pt"     vAlign=top width=139>
-      <P class=MsoNormal 
-      style="MARGIN: 0cm; LINE-HEIGHT: 16pt; mso-line-height-rule: exactly; mso-add-space: auto"><SPAN 
-      lang=EN-US 
-      style="FONT-SIZE: 10.5pt; FONT-FAMILY: 等线; COLOR: black; mso-bidi-font-family: 等线; mso-bidi-font-size: 12.0pt">44<o:p></O:P></SPAN></P></TD>
-    <TD                                                  style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: white 1pt solid; WIDTH: 104.25pt; BORDER-BOTTOM: #f2f2f2 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 5.4pt; BACKGROUND-COLOR: transparent; mso-border-bottom-alt: #F2F2F2; mso-border-left-alt: white; mso-border-top-alt: #F2F2F2; mso-border-right-alt: white; mso-border-style-alt: solid; mso-border-width-alt: .75pt"     vAlign=top width=139>
-      <P class=MsoNormal 
-      style="MARGIN: 0cm; LINE-HEIGHT: 16pt; mso-line-height-rule: exactly; mso-add-space: auto"><SPAN 
-      lang=EN-US 
-      style="FONT-SIZE: 10.5pt; FONT-FAMILY: 等线; COLOR: black; mso-bidi-font-family: 等线; mso-bidi-font-size: 12.0pt">6<o:p></O:P></SPAN></P></TD></TR>
-  <TR style="mso-yfti-irow: 9">
-    <TD                                                style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: #f2f2f2 1pt solid; WIDTH: 104.25pt; BACKGROUND: #f2f2f2; BORDER-BOTTOM: #f2f2f2 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: #f2f2f2 1pt solid; PADDING-RIGHT: 5.4pt; mso-border-alt: solid #F2F2F2 .75pt; mso-border-top-alt: solid #F2F2F2 .75pt"     vAlign=top width=139>
-      <P class=MsoNormal 
-      style="MARGIN: 0cm; LINE-HEIGHT: 16pt; mso-line-height-rule: exactly; mso-add-space: auto"><SPAN 
-      lang=EN-US 
-      style="FONT-SIZE: 10.5pt; FONT-FAMILY: 等线; COLOR: black; mso-bidi-font-family: 等线; mso-bidi-font-size: 12.0pt">9<SUP>th</SUP><o:p></O:P></SPAN></P></TD>
-    <TD                                                  style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: #f2f2f2 1pt solid; WIDTH: 104.25pt; BACKGROUND: #f2f2f2; BORDER-BOTTOM: #f2f2f2 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 5.4pt; mso-border-alt: solid #F2F2F2 .75pt; mso-border-left-alt: solid #F2F2F2 .75pt; mso-border-top-alt: solid #F2F2F2 .75pt"     vAlign=top width=139>
-      <P class=MsoNormal 
-      style="MARGIN: 0cm; LINE-HEIGHT: 16pt; mso-line-height-rule: exactly; mso-add-space: auto"><SPAN 
-      lang=EN-US 
-      style="FONT-SIZE: 10.5pt; FONT-FAMILY: 等线; COLOR: black; mso-bidi-font-family: 等线; mso-bidi-font-size: 12.0pt">4<o:p></O:P></SPAN></P></TD>
-    <TD                                                  style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: #f2f2f2 1pt solid; WIDTH: 104.25pt; BACKGROUND: #f2f2f2; BORDER-BOTTOM: #f2f2f2 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 5.4pt; mso-border-alt: solid #F2F2F2 .75pt; mso-border-left-alt: solid #F2F2F2 .75pt; mso-border-top-alt: solid #F2F2F2 .75pt"     vAlign=top width=139>
-      <P class=MsoNormal 
-      style="MARGIN: 0cm; LINE-HEIGHT: 16pt; mso-line-height-rule: exactly; mso-add-space: auto"><SPAN 
-      lang=EN-US 
-      style="FONT-SIZE: 10.5pt; FONT-FAMILY: 等线; COLOR: black; mso-bidi-font-family: 等线; mso-bidi-font-size: 12.0pt">7<o:p></O:P></SPAN></P></TD>
-    <TD                                                  style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: #f2f2f2 1pt solid; WIDTH: 104.25pt; BACKGROUND: #f2f2f2; BORDER-BOTTOM: #f2f2f2 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 5.4pt; mso-border-alt: solid #F2F2F2 .75pt; mso-border-left-alt: solid #F2F2F2 .75pt; mso-border-top-alt: solid #F2F2F2 .75pt"     vAlign=top width=139>
-      <P class=MsoNormal 
-      style="MARGIN: 0cm; LINE-HEIGHT: 16pt; mso-line-height-rule: exactly; mso-add-space: auto"><SPAN 
-      lang=EN-US 
-      style="FONT-SIZE: 10.5pt; FONT-FAMILY: 等线; COLOR: black; mso-bidi-font-family: 等线; mso-bidi-font-size: 12.0pt">57<o:p></O:P></SPAN></P></TD>
-    <TD                                                  style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: #f2f2f2 1pt solid; WIDTH: 104.25pt; BACKGROUND: #f2f2f2; BORDER-BOTTOM: #f2f2f2 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 5.4pt; mso-border-alt: solid #F2F2F2 .75pt; mso-border-left-alt: solid #F2F2F2 .75pt; mso-border-top-alt: solid #F2F2F2 .75pt"     vAlign=top width=139>
-      <P class=MsoNormal 
-      style="MARGIN: 0cm; LINE-HEIGHT: 16pt; mso-line-height-rule: exactly; mso-add-space: auto"><SPAN 
-      lang=EN-US 
-      style="FONT-SIZE: 10.5pt; FONT-FAMILY: 等线; COLOR: black; mso-bidi-font-family: 等线; mso-bidi-font-size: 12.0pt">7<o:p></O:P></SPAN></P></TD></TR>
-  <TR style="mso-yfti-irow: 10">
-    <TD                                                    style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: white 1pt solid; WIDTH: 104.25pt; BORDER-BOTTOM: #f2f2f2 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: white 1pt solid; PADDING-RIGHT: 5.4pt; BACKGROUND-COLOR: transparent; mso-border-bottom-alt: #F2F2F2; mso-border-left-alt: white; mso-border-top-alt: #F2F2F2; mso-border-right-alt: white; mso-border-style-alt: solid; mso-border-width-alt: .75pt"     vAlign=top width=139>
-      <P class=MsoNormal 
-      style="MARGIN: 0cm; LINE-HEIGHT: 16pt; mso-line-height-rule: exactly; mso-add-space: auto"><SPAN 
-      lang=EN-US 
-      style="FONT-SIZE: 10.5pt; FONT-FAMILY: 等线; COLOR: black; mso-bidi-font-family: 等线; mso-bidi-font-size: 12.0pt">10<SUP>th</SUP><o:p></O:P></SPAN></P></TD>
-    <TD                                                  style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: white 1pt solid; WIDTH: 104.25pt; BORDER-BOTTOM: #f2f2f2 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 5.4pt; BACKGROUND-COLOR: transparent; mso-border-bottom-alt: #F2F2F2; mso-border-left-alt: white; mso-border-top-alt: #F2F2F2; mso-border-right-alt: white; mso-border-style-alt: solid; mso-border-width-alt: .75pt"     vAlign=top width=139>
-      <P class=MsoNormal 
-      style="MARGIN: 0cm; LINE-HEIGHT: 16pt; mso-line-height-rule: exactly; mso-add-space: auto"><SPAN 
-      lang=EN-US 
-      style="FONT-SIZE: 10.5pt; FONT-FAMILY: 等线; COLOR: black; mso-bidi-font-family: 等线; mso-bidi-font-size: 12.0pt">4<o:p></O:P></SPAN></P></TD>
-    <TD                                                  style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: white 1pt solid; WIDTH: 104.25pt; BORDER-BOTTOM: #f2f2f2 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 5.4pt; BACKGROUND-COLOR: transparent; mso-border-bottom-alt: #F2F2F2; mso-border-left-alt: white; mso-border-top-alt: #F2F2F2; mso-border-right-alt: white; mso-border-style-alt: solid; mso-border-width-alt: .75pt"     vAlign=top width=139>
-      <P class=MsoNormal 
-      style="MARGIN: 0cm; LINE-HEIGHT: 16pt; mso-line-height-rule: exactly; mso-add-space: auto"><SPAN 
-      lang=EN-US 
-      style="FONT-SIZE: 10.5pt; FONT-FAMILY: 等线; COLOR: black; mso-bidi-font-family: 等线; mso-bidi-font-size: 12.0pt">7<o:p></O:P></SPAN></P></TD>
-    <TD                                                  style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: white 1pt solid; WIDTH: 104.25pt; BORDER-BOTTOM: #f2f2f2 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 5.4pt; BACKGROUND-COLOR: transparent; mso-border-bottom-alt: #F2F2F2; mso-border-left-alt: white; mso-border-top-alt: #F2F2F2; mso-border-right-alt: white; mso-border-style-alt: solid; mso-border-width-alt: .75pt"     vAlign=top width=139>
-      <P class=MsoNormal 
-      style="MARGIN: 0cm; LINE-HEIGHT: 16pt; mso-line-height-rule: exactly; mso-add-space: auto"><SPAN 
-      lang=EN-US 
-      style="FONT-SIZE: 10.5pt; FONT-FAMILY: 等线; COLOR: black; mso-bidi-font-family: 等线; mso-bidi-font-size: 12.0pt">64<o:p></O:P></SPAN></P></TD>
-    <TD                                                  style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: white 1pt solid; WIDTH: 104.25pt; BORDER-BOTTOM: #f2f2f2 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 5.4pt; BACKGROUND-COLOR: transparent; mso-border-bottom-alt: #F2F2F2; mso-border-left-alt: white; mso-border-top-alt: #F2F2F2; mso-border-right-alt: white; mso-border-style-alt: solid; mso-border-width-alt: .75pt"     vAlign=top width=139>
-      <P class=MsoNormal 
-      style="MARGIN: 0cm; LINE-HEIGHT: 16pt; mso-line-height-rule: exactly; mso-add-space: auto"><SPAN 
-      lang=EN-US 
-      style="FONT-SIZE: 10.5pt; FONT-FAMILY: 等线; COLOR: black; mso-bidi-font-family: 等线; mso-bidi-font-size: 12.0pt">7<o:p></O:P></SPAN></P></TD></TR>
-  <TR style="mso-yfti-irow: 11">
-    <TD                                                    style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: #f2f2f2 1pt solid; WIDTH: 104.25pt; BACKGROUND: #f2f2f2; BORDER-BOTTOM: white 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: #f2f2f2 1pt solid; PADDING-RIGHT: 5.4pt; mso-border-alt: solid #F2F2F2 .75pt; mso-border-bottom-alt: solid white .75pt; mso-border-top-alt: solid #F2F2F2 .75pt"     vAlign=top width=139>
-      <P class=MsoNormal 
-      style="MARGIN: 0cm; LINE-HEIGHT: 16pt; mso-line-height-rule: exactly; mso-add-space: auto"><SPAN 
-      lang=EN-US 
-      style="FONT-SIZE: 10.5pt; FONT-FAMILY: 等线; COLOR: black; mso-bidi-font-family: 等线; mso-bidi-font-size: 12.0pt">11<SUP>th</SUP><o:p></O:P></SPAN></P></TD>
-    <TD                                                      style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: #f2f2f2 1pt solid; WIDTH: 104.25pt; BACKGROUND: #f2f2f2; BORDER-BOTTOM: white 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 5.4pt; mso-border-alt: solid #F2F2F2 .75pt; mso-border-bottom-alt: solid white .75pt; mso-border-left-alt: solid #F2F2F2 .75pt; mso-border-top-alt: solid #F2F2F2 .75pt"     vAlign=top width=139>
-      <P class=MsoNormal 
-      style="MARGIN: 0cm; LINE-HEIGHT: 16pt; mso-line-height-rule: exactly; mso-add-space: auto"><SPAN 
-      lang=EN-US 
-      style="FONT-SIZE: 10.5pt; FONT-FAMILY: 等线; COLOR: black; mso-bidi-font-family: 等线; mso-bidi-font-size: 12.0pt">4<o:p></O:P></SPAN></P></TD>
-    <TD                                                      style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: #f2f2f2 1pt solid; WIDTH: 104.25pt; BACKGROUND: #f2f2f2; BORDER-BOTTOM: white 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 5.4pt; mso-border-alt: solid #F2F2F2 .75pt; mso-border-bottom-alt: solid white .75pt; mso-border-left-alt: solid #F2F2F2 .75pt; mso-border-top-alt: solid #F2F2F2 .75pt"     vAlign=top width=139>
-      <P class=MsoNormal 
-      style="MARGIN: 0cm; LINE-HEIGHT: 16pt; mso-line-height-rule: exactly; mso-add-space: auto"><SPAN 
-      lang=EN-US 
-      style="FONT-SIZE: 10.5pt; FONT-FAMILY: 等线; COLOR: black; mso-bidi-font-family: 等线; mso-bidi-font-size: 12.0pt">8<o:p></O:P></SPAN></P></TD>
-    <TD                                                      style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: #f2f2f2 1pt solid; WIDTH: 104.25pt; BACKGROUND: #f2f2f2; BORDER-BOTTOM: white 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 5.4pt; mso-border-alt: solid #F2F2F2 .75pt; mso-border-bottom-alt: solid white .75pt; mso-border-left-alt: solid #F2F2F2 .75pt; mso-border-top-alt: solid #F2F2F2 .75pt"     vAlign=top width=139>
-      <P class=MsoNormal 
-      style="MARGIN: 0cm; LINE-HEIGHT: 16pt; mso-line-height-rule: exactly; mso-add-space: auto"><SPAN 
-      lang=EN-US 
-      style="FONT-SIZE: 10.5pt; FONT-FAMILY: 等线; COLOR: black; mso-bidi-font-family: 等线; mso-bidi-font-size: 12.0pt">64<o:p></O:P></SPAN></P></TD>
-    <TD                                                      style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: #f2f2f2 1pt solid; WIDTH: 104.25pt; BACKGROUND: #f2f2f2; BORDER-BOTTOM: white 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 5.4pt; mso-border-alt: solid #F2F2F2 .75pt; mso-border-bottom-alt: solid white .75pt; mso-border-left-alt: solid #F2F2F2 .75pt; mso-border-top-alt: solid #F2F2F2 .75pt"     vAlign=top width=139>
-      <P class=MsoNormal 
-      style="MARGIN: 0cm; LINE-HEIGHT: 16pt; mso-line-height-rule: exactly; mso-add-space: auto"><SPAN 
-      lang=EN-US 
-      style="FONT-SIZE: 10.5pt; FONT-FAMILY: 等线; COLOR: black; mso-bidi-font-family: 等线; mso-bidi-font-size: 12.0pt">7<o:p></O:P></SPAN></P></TD></TR>
-  <TR style="mso-yfti-irow: 12">
-    <TD                                                style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: white 1pt solid; WIDTH: 104.25pt; BACKGROUND: white; BORDER-BOTTOM: white 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: white 1pt solid; PADDING-RIGHT: 5.4pt; mso-border-alt: solid white .75pt; mso-border-top-alt: solid white .75pt"     vAlign=top width=139>
-      <P class=MsoNormal 
-      style="MARGIN: 0cm; LINE-HEIGHT: 16pt; mso-line-height-rule: exactly; mso-add-space: auto"><SPAN 
-      lang=EN-US 
-      style="FONT-SIZE: 10.5pt; FONT-FAMILY: 等线; COLOR: black; mso-bidi-font-family: 等线; mso-bidi-font-size: 12.0pt">12<SUP>th</SUP><o:p></O:P></SPAN></P></TD>
-    <TD                                                  style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: white 1pt solid; WIDTH: 104.25pt; BACKGROUND: white; BORDER-BOTTOM: white 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 5.4pt; mso-border-alt: solid white .75pt; mso-border-left-alt: solid white .75pt; mso-border-top-alt: solid white .75pt"     vAlign=top width=139>
-      <P class=MsoNormal 
-      style="MARGIN: 0cm; LINE-HEIGHT: 16pt; mso-line-height-rule: exactly; mso-add-space: auto"><SPAN 
-      lang=EN-US 
-      style="FONT-SIZE: 10.5pt; FONT-FAMILY: 等线; COLOR: black; mso-bidi-font-family: 等线; mso-bidi-font-size: 12.0pt">5<o:p></O:P></SPAN></P></TD>
-    <TD                                                  style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: white 1pt solid; WIDTH: 104.25pt; BACKGROUND: white; BORDER-BOTTOM: white 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 5.4pt; mso-border-alt: solid white .75pt; mso-border-left-alt: solid white .75pt; mso-border-top-alt: solid white .75pt"     vAlign=top width=139>
-      <P class=MsoNormal 
-      style="MARGIN: 0cm; LINE-HEIGHT: 16pt; mso-line-height-rule: exactly; mso-add-space: auto"><SPAN 
-      lang=EN-US 
-      style="FONT-SIZE: 10.5pt; FONT-FAMILY: 等线; COLOR: black; mso-bidi-font-family: 等线; mso-bidi-font-size: 12.0pt">8<o:p></O:P></SPAN></P></TD>
-    <TD                                                  style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: white 1pt solid; WIDTH: 104.25pt; BACKGROUND: white; BORDER-BOTTOM: white 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 5.4pt; mso-border-alt: solid white .75pt; mso-border-left-alt: solid white .75pt; mso-border-top-alt: solid white .75pt"     vAlign=top width=139>
-      <P class=MsoNormal 
-      style="MARGIN: 0cm; LINE-HEIGHT: 16pt; mso-line-height-rule: exactly; mso-add-space: auto"><SPAN 
-      lang=EN-US 
-      style="FONT-SIZE: 10.5pt; FONT-FAMILY: 等线; COLOR: black; mso-bidi-font-family: 等线; mso-bidi-font-size: 12.0pt">64<o:p></O:P></SPAN></P></TD>
-    <TD                                                  style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: white 1pt solid; WIDTH: 104.25pt; BACKGROUND: white; BORDER-BOTTOM: white 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 5.4pt; mso-border-alt: solid white .75pt; mso-border-left-alt: solid white .75pt; mso-border-top-alt: solid white .75pt"     vAlign=top width=139>
-      <P class=MsoNormal 
-      style="MARGIN: 0cm; LINE-HEIGHT: 16pt; mso-line-height-rule: exactly; mso-add-space: auto"><SPAN 
-      lang=EN-US 
-      style="FONT-SIZE: 10.5pt; FONT-FAMILY: 等线; COLOR: black; mso-bidi-font-family: 等线; mso-bidi-font-size: 12.0pt">7<o:p></O:P></SPAN></P></TD></TR>
-  <TR style="mso-yfti-irow: 13">
-    <TD                                                style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: #f2f2f2 1pt solid; WIDTH: 104.25pt; BACKGROUND: #f2f2f2; BORDER-BOTTOM: #f2f2f2 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: #f2f2f2 1pt solid; PADDING-RIGHT: 5.4pt; mso-border-alt: solid #F2F2F2 .75pt; mso-border-top-alt: solid white .75pt"     vAlign=top width=139>
-      <P class=MsoNormal 
-      style="MARGIN: 0cm; LINE-HEIGHT: 16pt; mso-line-height-rule: exactly; mso-add-space: auto"><SPAN 
-      lang=EN-US 
-      style="FONT-SIZE: 10.5pt; FONT-FAMILY: 等线; COLOR: black; mso-bidi-font-family: 等线; mso-bidi-font-size: 12.0pt">13<SUP>th</SUP><o:p></O:P></SPAN></P></TD>
-    <TD                                                  style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: #f2f2f2 1pt solid; WIDTH: 104.25pt; BACKGROUND: #f2f2f2; BORDER-BOTTOM: #f2f2f2 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 5.4pt; mso-border-alt: solid #F2F2F2 .75pt; mso-border-left-alt: solid #F2F2F2 .75pt; mso-border-top-alt: solid white .75pt"     vAlign=top width=139>
-      <P class=MsoNormal 
-      style="MARGIN: 0cm; LINE-HEIGHT: 16pt; mso-line-height-rule: exactly; mso-add-space: auto"><SPAN 
-      lang=EN-US 
-      style="FONT-SIZE: 10.5pt; FONT-FAMILY: 等线; COLOR: black; mso-bidi-font-family: 等线; mso-bidi-font-size: 12.0pt">5<o:p></O:P></SPAN></P></TD>
-    <TD                                                  style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: #f2f2f2 1pt solid; WIDTH: 104.25pt; BACKGROUND: #f2f2f2; BORDER-BOTTOM: #f2f2f2 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 5.4pt; mso-border-alt: solid #F2F2F2 .75pt; mso-border-left-alt: solid #F2F2F2 .75pt; mso-border-top-alt: solid white .75pt"     vAlign=top width=139>
-      <P class=MsoNormal 
-      style="MARGIN: 0cm; LINE-HEIGHT: 16pt; mso-line-height-rule: exactly; mso-add-space: auto"><SPAN 
-      lang=EN-US 
-      style="FONT-SIZE: 10.5pt; FONT-FAMILY: 等线; COLOR: black; mso-bidi-font-family: 等线; mso-bidi-font-size: 12.0pt">9<o:p></O:P></SPAN></P></TD>
-    <TD                                                  style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: #f2f2f2 1pt solid; WIDTH: 104.25pt; BACKGROUND: #f2f2f2; BORDER-BOTTOM: #f2f2f2 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 5.4pt; mso-border-alt: solid #F2F2F2 .75pt; mso-border-left-alt: solid #F2F2F2 .75pt; mso-border-top-alt: solid white .75pt"     vAlign=top width=139>
-      <P class=MsoNormal 
-      style="MARGIN: 0cm; LINE-HEIGHT: 16pt; mso-line-height-rule: exactly; mso-add-space: auto"><SPAN 
-      lang=EN-US 
-      style="FONT-SIZE: 10.5pt; FONT-FAMILY: 等线; COLOR: black; mso-bidi-font-family: 等线; mso-bidi-font-size: 12.0pt">64<o:p></O:P></SPAN></P></TD>
-    <TD                                                  style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: #f2f2f2 1pt solid; WIDTH: 104.25pt; BACKGROUND: #f2f2f2; BORDER-BOTTOM: #f2f2f2 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 5.4pt; mso-border-alt: solid #F2F2F2 .75pt; mso-border-left-alt: solid #F2F2F2 .75pt; mso-border-top-alt: solid white .75pt"     vAlign=top width=139>
-      <P class=MsoNormal 
-      style="MARGIN: 0cm; LINE-HEIGHT: 16pt; mso-line-height-rule: exactly; mso-add-space: auto"><SPAN 
-      lang=EN-US 
-      style="FONT-SIZE: 10.5pt; FONT-FAMILY: 等线; COLOR: black; mso-bidi-font-family: 等线; mso-bidi-font-size: 12.0pt">7<o:p></O:P></SPAN></P></TD></TR>
-  <TR style="mso-yfti-irow: 14">
-    <TD                                                    style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: white 1pt solid; WIDTH: 104.25pt; BORDER-BOTTOM: #f2f2f2 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: white 1pt solid; PADDING-RIGHT: 5.4pt; BACKGROUND-COLOR: transparent; mso-border-bottom-alt: #F2F2F2; mso-border-left-alt: white; mso-border-top-alt: #F2F2F2; mso-border-right-alt: white; mso-border-style-alt: solid; mso-border-width-alt: .75pt"     vAlign=top width=139>
-      <P class=MsoNormal 
-      style="MARGIN: 0cm; LINE-HEIGHT: 16pt; mso-line-height-rule: exactly; mso-add-space: auto"><SPAN 
-      lang=EN-US 
-      style="FONT-SIZE: 10.5pt; FONT-FAMILY: 等线; COLOR: black; mso-bidi-font-family: 等线; mso-bidi-font-size: 12.0pt">14<SUP>th</SUP><o:p></O:P></SPAN></P></TD>
-    <TD                                                  style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: white 1pt solid; WIDTH: 104.25pt; BORDER-BOTTOM: #f2f2f2 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 5.4pt; BACKGROUND-COLOR: transparent; mso-border-bottom-alt: #F2F2F2; mso-border-left-alt: white; mso-border-top-alt: #F2F2F2; mso-border-right-alt: white; mso-border-style-alt: solid; mso-border-width-alt: .75pt"     vAlign=top width=139>
-      <P class=MsoNormal 
-      style="MARGIN: 0cm; LINE-HEIGHT: 16pt; mso-line-height-rule: exactly; mso-add-space: auto"><SPAN 
-      lang=EN-US 
-      style="FONT-SIZE: 10.5pt; FONT-FAMILY: 等线; COLOR: black; mso-bidi-font-family: 等线; mso-bidi-font-size: 12.0pt">5<o:p></O:P></SPAN></P></TD>
-    <TD                                                  style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: white 1pt solid; WIDTH: 104.25pt; BORDER-BOTTOM: #f2f2f2 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 5.4pt; BACKGROUND-COLOR: transparent; mso-border-bottom-alt: #F2F2F2; mso-border-left-alt: white; mso-border-top-alt: #F2F2F2; mso-border-right-alt: white; mso-border-style-alt: solid; mso-border-width-alt: .75pt"     vAlign=top width=139>
-      <P class=MsoNormal 
-      style="MARGIN: 0cm; LINE-HEIGHT: 16pt; mso-line-height-rule: exactly; mso-add-space: auto"><SPAN 
-      lang=EN-US 
-      style="FONT-SIZE: 10.5pt; FONT-FAMILY: 等线; COLOR: black; mso-bidi-font-family: 等线; mso-bidi-font-size: 12.0pt">9<o:p></O:P></SPAN></P></TD>
-    <TD                                                  style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: white 1pt solid; WIDTH: 104.25pt; BORDER-BOTTOM: #f2f2f2 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 5.4pt; BACKGROUND-COLOR: transparent; mso-border-bottom-alt: #F2F2F2; mso-border-left-alt: white; mso-border-top-alt: #F2F2F2; mso-border-right-alt: white; mso-border-style-alt: solid; mso-border-width-alt: .75pt"     vAlign=top width=139>
-      <P class=MsoNormal 
-      style="MARGIN: 0cm; LINE-HEIGHT: 16pt; mso-line-height-rule: exactly; mso-add-space: auto"><SPAN 
-      lang=EN-US 
-      style="FONT-SIZE: 10.5pt; FONT-FAMILY: 等线; COLOR: black; mso-bidi-font-family: 等线; mso-bidi-font-size: 12.0pt">64<o:p></O:P></SPAN></P></TD>
-    <TD                                                  style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: white 1pt solid; WIDTH: 104.25pt; BORDER-BOTTOM: #f2f2f2 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 5.4pt; BACKGROUND-COLOR: transparent; mso-border-bottom-alt: #F2F2F2; mso-border-left-alt: white; mso-border-top-alt: #F2F2F2; mso-border-right-alt: white; mso-border-style-alt: solid; mso-border-width-alt: .75pt"     vAlign=top width=139>
-      <P class=MsoNormal 
-      style="MARGIN: 0cm; LINE-HEIGHT: 16pt; mso-line-height-rule: exactly; mso-add-space: auto"><SPAN 
-      lang=EN-US 
-      style="FONT-SIZE: 10.5pt; FONT-FAMILY: 等线; COLOR: black; mso-bidi-font-family: 等线; mso-bidi-font-size: 12.0pt">7<o:p></O:P></SPAN></P></TD></TR>
-  <TR style="mso-yfti-irow: 15">
-    <TD                                                style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: #f2f2f2 1pt solid; WIDTH: 104.25pt; BACKGROUND: #f2f2f2; BORDER-BOTTOM: #f2f2f2 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: #f2f2f2 1pt solid; PADDING-RIGHT: 5.4pt; mso-border-alt: solid #F2F2F2 .75pt; mso-border-top-alt: solid #F2F2F2 .75pt"     vAlign=top width=139>
-      <P class=MsoNormal 
-      style="MARGIN: 0cm; LINE-HEIGHT: 16pt; mso-line-height-rule: exactly; mso-add-space: auto"><SPAN 
-      lang=EN-US 
-      style="FONT-SIZE: 10.5pt; FONT-FAMILY: 等线; COLOR: black; mso-bidi-font-family: 等线; mso-bidi-font-size: 12.0pt">15<SUP>th</SUP><o:p></O:P></SPAN></P></TD>
-    <TD                                                  style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: #f2f2f2 1pt solid; WIDTH: 104.25pt; BACKGROUND: #f2f2f2; BORDER-BOTTOM: #f2f2f2 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 5.4pt; mso-border-alt: solid #F2F2F2 .75pt; mso-border-left-alt: solid #F2F2F2 .75pt; mso-border-top-alt: solid #F2F2F2 .75pt"     vAlign=top width=139>
-      <P class=MsoNormal 
-      style="MARGIN: 0cm; LINE-HEIGHT: 16pt; mso-line-height-rule: exactly; mso-add-space: auto"><SPAN 
-      lang=EN-US 
-      style="FONT-SIZE: 10.5pt; FONT-FAMILY: 等线; COLOR: black; mso-bidi-font-family: 等线; mso-bidi-font-size: 12.0pt">5<o:p></O:P></SPAN></P></TD>
-    <TD                                                  style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: #f2f2f2 1pt solid; WIDTH: 104.25pt; BACKGROUND: #f2f2f2; BORDER-BOTTOM: #f2f2f2 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 5.4pt; mso-border-alt: solid #F2F2F2 .75pt; mso-border-left-alt: solid #F2F2F2 .75pt; mso-border-top-alt: solid #F2F2F2 .75pt"     vAlign=top width=139>
-      <P class=MsoNormal 
-      style="MARGIN: 0cm; LINE-HEIGHT: 16pt; mso-line-height-rule: exactly; mso-add-space: auto"><SPAN 
-      lang=EN-US 
-      style="FONT-SIZE: 10.5pt; FONT-FAMILY: 等线; COLOR: black; mso-bidi-font-family: 等线; mso-bidi-font-size: 12.0pt">10<o:p></O:P></SPAN></P></TD>
-    <TD                                                  style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: #f2f2f2 1pt solid; WIDTH: 104.25pt; BACKGROUND: #f2f2f2; BORDER-BOTTOM: #f2f2f2 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 5.4pt; mso-border-alt: solid #F2F2F2 .75pt; mso-border-left-alt: solid #F2F2F2 .75pt; mso-border-top-alt: solid #F2F2F2 .75pt"     vAlign=top width=139>
-      <P class=MsoNormal 
-      style="MARGIN: 0cm; LINE-HEIGHT: 16pt; mso-line-height-rule: exactly; mso-add-space: auto"><SPAN 
-      lang=EN-US 
-      style="FONT-SIZE: 10.5pt; FONT-FAMILY: 等线; COLOR: black; mso-bidi-font-family: 等线; mso-bidi-font-size: 12.0pt">64<o:p></O:P></SPAN></P></TD>
-    <TD                                                  style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: #f2f2f2 1pt solid; WIDTH: 104.25pt; BACKGROUND: #f2f2f2; BORDER-BOTTOM: #f2f2f2 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 5.4pt; mso-border-alt: solid #F2F2F2 .75pt; mso-border-left-alt: solid #F2F2F2 .75pt; mso-border-top-alt: solid #F2F2F2 .75pt"     vAlign=top width=139>
-      <P class=MsoNormal 
-      style="MARGIN: 0cm; LINE-HEIGHT: 16pt; mso-line-height-rule: exactly; mso-add-space: auto"><SPAN 
-      lang=EN-US 
-      style="FONT-SIZE: 10.5pt; FONT-FAMILY: 等线; COLOR: black; mso-bidi-font-family: 等线; mso-bidi-font-size: 12.0pt">7<o:p></O:P></SPAN></P></TD></TR>
-  <TR style="mso-yfti-irow: 16">
-    <TD                                                    style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: white 1pt solid; WIDTH: 104.25pt; BORDER-BOTTOM: #f2f2f2 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: white 1pt solid; PADDING-RIGHT: 5.4pt; BACKGROUND-COLOR: transparent; mso-border-bottom-alt: #F2F2F2; mso-border-left-alt: white; mso-border-top-alt: #F2F2F2; mso-border-right-alt: white; mso-border-style-alt: solid; mso-border-width-alt: .75pt"     vAlign=top width=139>
-      <P class=MsoNormal 
-      style="MARGIN: 0cm; LINE-HEIGHT: 16pt; mso-line-height-rule: exactly; mso-add-space: auto"><SPAN 
-      lang=EN-US 
-      style="FONT-SIZE: 10.5pt; FONT-FAMILY: 等线; COLOR: black; mso-bidi-font-family: 等线; mso-bidi-font-size: 12.0pt">16<SUP>th</SUP><o:p></O:P></SPAN></P></TD>
-    <TD                                                  style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: white 1pt solid; WIDTH: 104.25pt; BORDER-BOTTOM: #f2f2f2 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 5.4pt; BACKGROUND-COLOR: transparent; mso-border-bottom-alt: #F2F2F2; mso-border-left-alt: white; mso-border-top-alt: #F2F2F2; mso-border-right-alt: white; mso-border-style-alt: solid; mso-border-width-alt: .75pt"     vAlign=top width=139>
-      <P class=MsoNormal 
-      style="MARGIN: 0cm; LINE-HEIGHT: 16pt; mso-line-height-rule: exactly; mso-add-space: auto"><SPAN 
-      lang=EN-US 
-      style="FONT-SIZE: 10.5pt; FONT-FAMILY: 等线; COLOR: black; mso-bidi-font-family: 等线; mso-bidi-font-size: 12.0pt">5<o:p></O:P></SPAN></P></TD>
-    <TD                                                  style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: white 1pt solid; WIDTH: 104.25pt; BORDER-BOTTOM: #f2f2f2 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 5.4pt; BACKGROUND-COLOR: transparent; mso-border-bottom-alt: #F2F2F2; mso-border-left-alt: white; mso-border-top-alt: #F2F2F2; mso-border-right-alt: white; mso-border-style-alt: solid; mso-border-width-alt: .75pt"     vAlign=top width=139>
-      <P class=MsoNormal 
-      style="MARGIN: 0cm; LINE-HEIGHT: 16pt; mso-line-height-rule: exactly; mso-add-space: auto"><SPAN 
-      lang=EN-US 
-      style="FONT-SIZE: 10.5pt; FONT-FAMILY: 等线; COLOR: black; mso-bidi-font-family: 等线; mso-bidi-font-size: 12.0pt">10<o:p></O:P></SPAN></P></TD>
-    <TD                                                  style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: white 1pt solid; WIDTH: 104.25pt; BORDER-BOTTOM: #f2f2f2 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 5.4pt; BACKGROUND-COLOR: transparent; mso-border-bottom-alt: #F2F2F2; mso-border-left-alt: white; mso-border-top-alt: #F2F2F2; mso-border-right-alt: white; mso-border-style-alt: solid; mso-border-width-alt: .75pt"     vAlign=top width=139>
-      <P class=MsoNormal 
-      style="MARGIN: 0cm; LINE-HEIGHT: 16pt; mso-line-height-rule: exactly; mso-add-space: auto"><SPAN 
-      lang=EN-US 
-      style="FONT-SIZE: 10.5pt; FONT-FAMILY: 等线; COLOR: black; mso-bidi-font-family: 等线; mso-bidi-font-size: 12.0pt">64<o:p></O:P></SPAN></P></TD>
-    <TD                                                  style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: white 1pt solid; WIDTH: 104.25pt; BORDER-BOTTOM: #f2f2f2 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 5.4pt; BACKGROUND-COLOR: transparent; mso-border-bottom-alt: #F2F2F2; mso-border-left-alt: white; mso-border-top-alt: #F2F2F2; mso-border-right-alt: white; mso-border-style-alt: solid; mso-border-width-alt: .75pt"     vAlign=top width=139>
-      <P class=MsoNormal 
-      style="MARGIN: 0cm; LINE-HEIGHT: 16pt; mso-line-height-rule: exactly; mso-add-space: auto"><SPAN 
-      lang=EN-US 
-      style="FONT-SIZE: 10.5pt; FONT-FAMILY: 等线; COLOR: black; mso-bidi-font-family: 等线; mso-bidi-font-size: 12.0pt">7<o:p></O:P></SPAN></P></TD></TR>
-  <TR style="mso-yfti-irow: 17">
-    <TD                                                style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: #f2f2f2 1pt solid; WIDTH: 104.25pt; BACKGROUND: #f2f2f2; BORDER-BOTTOM: #f2f2f2 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: #f2f2f2 1pt solid; PADDING-RIGHT: 5.4pt; mso-border-alt: solid #F2F2F2 .75pt; mso-border-top-alt: solid #F2F2F2 .75pt"     vAlign=top width=139>
-      <P class=MsoNormal 
-      style="MARGIN: 0cm; LINE-HEIGHT: 16pt; mso-line-height-rule: exactly; mso-add-space: auto"><SPAN 
-      lang=EN-US 
-      style="FONT-SIZE: 10.5pt; FONT-FAMILY: 等线; COLOR: black; mso-bidi-font-family: 等线; mso-bidi-font-size: 12.0pt">17<SUP>th</SUP><o:p></O:P></SPAN></P></TD>
-    <TD                                                  style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: #f2f2f2 1pt solid; WIDTH: 104.25pt; BACKGROUND: #f2f2f2; BORDER-BOTTOM: #f2f2f2 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 5.4pt; mso-border-alt: solid #F2F2F2 .75pt; mso-border-left-alt: solid #F2F2F2 .75pt; mso-border-top-alt: solid #F2F2F2 .75pt"     vAlign=top width=139>
-      <P class=MsoNormal 
-      style="MARGIN: 0cm; LINE-HEIGHT: 16pt; mso-line-height-rule: exactly; mso-add-space: auto"><SPAN 
-      lang=EN-US 
-      style="FONT-SIZE: 10.5pt; FONT-FAMILY: 等线; COLOR: black; mso-bidi-font-family: 等线; mso-bidi-font-size: 12.0pt">6<o:p></O:P></SPAN></P></TD>
-    <TD                                                  style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: #f2f2f2 1pt solid; WIDTH: 104.25pt; BACKGROUND: #f2f2f2; BORDER-BOTTOM: #f2f2f2 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 5.4pt; mso-border-alt: solid #F2F2F2 .75pt; mso-border-left-alt: solid #F2F2F2 .75pt; mso-border-top-alt: solid #F2F2F2 .75pt"     vAlign=top width=139>
-      <P class=MsoNormal 
-      style="MARGIN: 0cm; LINE-HEIGHT: 16pt; mso-line-height-rule: exactly; mso-add-space: auto"><SPAN 
-      lang=EN-US 
-      style="FONT-SIZE: 10.5pt; FONT-FAMILY: 等线; COLOR: black; mso-bidi-font-family: 等线; mso-bidi-font-size: 12.0pt">10<o:p></O:P></SPAN></P></TD>
-    <TD                                                  style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: #f2f2f2 1pt solid; WIDTH: 104.25pt; BACKGROUND: #f2f2f2; BORDER-BOTTOM: #f2f2f2 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 5.4pt; mso-border-alt: solid #F2F2F2 .75pt; mso-border-left-alt: solid #F2F2F2 .75pt; mso-border-top-alt: solid #F2F2F2 .75pt"     vAlign=top width=139>
-      <P class=MsoNormal 
-      style="MARGIN: 0cm; LINE-HEIGHT: 16pt; mso-line-height-rule: exactly; mso-add-space: auto"><SPAN 
-      lang=EN-US 
-      style="FONT-SIZE: 10.5pt; FONT-FAMILY: 等线; COLOR: black; mso-bidi-font-family: 等线; mso-bidi-font-size: 12.0pt">71<o:p></O:P></SPAN></P></TD>
-    <TD                                                  style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: #f2f2f2 1pt solid; WIDTH: 104.25pt; BACKGROUND: #f2f2f2; BORDER-BOTTOM: #f2f2f2 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 5.4pt; mso-border-alt: solid #F2F2F2 .75pt; mso-border-left-alt: solid #F2F2F2 .75pt; mso-border-top-alt: solid #F2F2F2 .75pt"     vAlign=top width=139>
-      <P class=MsoNormal 
-      style="MARGIN: 0cm; LINE-HEIGHT: 16pt; mso-line-height-rule: exactly; mso-add-space: auto"><SPAN 
-      lang=EN-US 
-      style="FONT-SIZE: 10.5pt; FONT-FAMILY: 等线; COLOR: black; mso-bidi-font-family: 等线; mso-bidi-font-size: 12.0pt">7<o:p></O:P></SPAN></P></TD></TR>
-  <TR style="mso-yfti-irow: 18">
-    <TD                                                    style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: white 1pt solid; WIDTH: 104.25pt; BORDER-BOTTOM: #f2f2f2 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: white 1pt solid; PADDING-RIGHT: 5.4pt; BACKGROUND-COLOR: transparent; mso-border-bottom-alt: #F2F2F2; mso-border-left-alt: white; mso-border-top-alt: #F2F2F2; mso-border-right-alt: white; mso-border-style-alt: solid; mso-border-width-alt: .75pt"     vAlign=top width=139>
-      <P class=MsoNormal 
-      style="MARGIN: 0cm; LINE-HEIGHT: 16pt; mso-line-height-rule: exactly; mso-add-space: auto"><SPAN 
-      lang=EN-US 
-      style="FONT-SIZE: 10.5pt; FONT-FAMILY: 等线; COLOR: black; mso-bidi-font-family: 等线; mso-bidi-font-size: 12.0pt">18<SUP>th</SUP><o:p></O:P></SPAN></P></TD>
-    <TD                                                  style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: white 1pt solid; WIDTH: 104.25pt; BORDER-BOTTOM: #f2f2f2 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 5.4pt; BACKGROUND-COLOR: transparent; mso-border-bottom-alt: #F2F2F2; mso-border-left-alt: white; mso-border-top-alt: #F2F2F2; mso-border-right-alt: white; mso-border-style-alt: solid; mso-border-width-alt: .75pt"     vAlign=top width=139>
-      <P class=MsoNormal 
-      style="MARGIN: 0cm; LINE-HEIGHT: 16pt; mso-line-height-rule: exactly; mso-add-space: auto"><SPAN 
-      lang=EN-US 
-      style="FONT-SIZE: 10.5pt; FONT-FAMILY: 等线; COLOR: black; mso-bidi-font-family: 等线; mso-bidi-font-size: 12.0pt">6<o:p></O:P></SPAN></P></TD>
-    <TD                                                  style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: white 1pt solid; WIDTH: 104.25pt; BORDER-BOTTOM: #f2f2f2 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 5.4pt; BACKGROUND-COLOR: transparent; mso-border-bottom-alt: #F2F2F2; mso-border-left-alt: white; mso-border-top-alt: #F2F2F2; mso-border-right-alt: white; mso-border-style-alt: solid; mso-border-width-alt: .75pt"     vAlign=top width=139>
-      <P class=MsoNormal 
-      style="MARGIN: 0cm; LINE-HEIGHT: 16pt; mso-line-height-rule: exactly; mso-add-space: auto"><SPAN 
-      lang=EN-US 
-      style="FONT-SIZE: 10.5pt; FONT-FAMILY: 等线; COLOR: black; mso-bidi-font-family: 等线; mso-bidi-font-size: 12.0pt">11<o:p></O:P></SPAN></P></TD>
-    <TD                                                  style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: white 1pt solid; WIDTH: 104.25pt; BORDER-BOTTOM: #f2f2f2 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 5.4pt; BACKGROUND-COLOR: transparent; mso-border-bottom-alt: #F2F2F2; mso-border-left-alt: white; mso-border-top-alt: #F2F2F2; mso-border-right-alt: white; mso-border-style-alt: solid; mso-border-width-alt: .75pt"     vAlign=top width=139>
-      <P class=MsoNormal 
-      style="MARGIN: 0cm; LINE-HEIGHT: 16pt; mso-line-height-rule: exactly; mso-add-space: auto"><SPAN 
-      lang=EN-US 
-      style="FONT-SIZE: 10.5pt; FONT-FAMILY: 等线; COLOR: black; mso-bidi-font-family: 等线; mso-bidi-font-size: 12.0pt">71<o:p></O:P></SPAN></P></TD>
-    <TD                                                  style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: white 1pt solid; WIDTH: 104.25pt; BORDER-BOTTOM: #f2f2f2 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 5.4pt; BACKGROUND-COLOR: transparent; mso-border-bottom-alt: #F2F2F2; mso-border-left-alt: white; mso-border-top-alt: #F2F2F2; mso-border-right-alt: white; mso-border-style-alt: solid; mso-border-width-alt: .75pt"     vAlign=top width=139>
-      <P class=MsoNormal 
-      style="MARGIN: 0cm; LINE-HEIGHT: 16pt; mso-line-height-rule: exactly; mso-add-space: auto"><SPAN 
-      lang=EN-US 
-      style="FONT-SIZE: 10.5pt; FONT-FAMILY: 等线; COLOR: black; mso-bidi-font-family: 等线; mso-bidi-font-size: 12.0pt">7<o:p></O:P></SPAN></P></TD></TR>
-  <TR style="mso-yfti-irow: 19">
-    <TD                                                style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: #f2f2f2 1pt solid; WIDTH: 104.25pt; BACKGROUND: #f2f2f2; BORDER-BOTTOM: #f2f2f2 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: #f2f2f2 1pt solid; PADDING-RIGHT: 5.4pt; mso-border-alt: solid #F2F2F2 .75pt; mso-border-top-alt: solid #F2F2F2 .75pt"     vAlign=top width=139>
-      <P class=MsoNormal 
-      style="MARGIN: 0cm; LINE-HEIGHT: 16pt; mso-line-height-rule: exactly; mso-add-space: auto"><SPAN 
-      lang=EN-US 
-      style="FONT-SIZE: 10.5pt; FONT-FAMILY: 等线; COLOR: black; mso-bidi-font-family: 等线; mso-bidi-font-size: 12.0pt">19<SUP>th</SUP><o:p></O:P></SPAN></P></TD>
-    <TD                                                  style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: #f2f2f2 1pt solid; WIDTH: 104.25pt; BACKGROUND: #f2f2f2; BORDER-BOTTOM: #f2f2f2 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 5.4pt; mso-border-alt: solid #F2F2F2 .75pt; mso-border-left-alt: solid #F2F2F2 .75pt; mso-border-top-alt: solid #F2F2F2 .75pt"     vAlign=top width=139>
-      <P class=MsoNormal 
-      style="MARGIN: 0cm; LINE-HEIGHT: 16pt; mso-line-height-rule: exactly; mso-add-space: auto"><SPAN 
-      lang=EN-US 
-      style="FONT-SIZE: 10.5pt; FONT-FAMILY: 等线; COLOR: black; mso-bidi-font-family: 等线; mso-bidi-font-size: 12.0pt">6<o:p></O:P></SPAN></P></TD>
-    <TD                                                  style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: #f2f2f2 1pt solid; WIDTH: 104.25pt; BACKGROUND: #f2f2f2; BORDER-BOTTOM: #f2f2f2 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 5.4pt; mso-border-alt: solid #F2F2F2 .75pt; mso-border-left-alt: solid #F2F2F2 .75pt; mso-border-top-alt: solid #F2F2F2 .75pt"     vAlign=top width=139>
-      <P class=MsoNormal 
-      style="MARGIN: 0cm; LINE-HEIGHT: 16pt; mso-line-height-rule: exactly; mso-add-space: auto"><SPAN 
-      lang=EN-US 
-      style="FONT-SIZE: 10.5pt; FONT-FAMILY: 等线; COLOR: black; mso-bidi-font-family: 等线; mso-bidi-font-size: 12.0pt">11<o:p></O:P></SPAN></P></TD>
-    <TD                                                  style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: #f2f2f2 1pt solid; WIDTH: 104.25pt; BACKGROUND: #f2f2f2; BORDER-BOTTOM: #f2f2f2 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 5.4pt; mso-border-alt: solid #F2F2F2 .75pt; mso-border-left-alt: solid #F2F2F2 .75pt; mso-border-top-alt: solid #F2F2F2 .75pt"     vAlign=top width=139>
-      <P class=MsoNormal 
-      style="MARGIN: 0cm; LINE-HEIGHT: 16pt; mso-line-height-rule: exactly; mso-add-space: auto"><SPAN 
-      lang=EN-US 
-      style="FONT-SIZE: 10.5pt; FONT-FAMILY: 等线; COLOR: black; mso-bidi-font-family: 等线; mso-bidi-font-size: 12.0pt">71<o:p></O:P></SPAN></P></TD>
-    <TD                                                  style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: #f2f2f2 1pt solid; WIDTH: 104.25pt; BACKGROUND: #f2f2f2; BORDER-BOTTOM: #f2f2f2 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 5.4pt; mso-border-alt: solid #F2F2F2 .75pt; mso-border-left-alt: solid #F2F2F2 .75pt; mso-border-top-alt: solid #F2F2F2 .75pt"     vAlign=top width=139>
-      <P class=MsoNormal 
-      style="MARGIN: 0cm; LINE-HEIGHT: 16pt; mso-line-height-rule: exactly; mso-add-space: auto"><SPAN 
-      lang=EN-US 
-      style="FONT-SIZE: 10.5pt; FONT-FAMILY: 等线; COLOR: black; mso-bidi-font-family: 等线; mso-bidi-font-size: 12.0pt">7<o:p></O:P></SPAN></P></TD></TR>
-  <TR style="mso-yfti-irow: 20; mso-yfti-lastrow: yes">
-    <TD                                                style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: white 1pt solid; WIDTH: 104.25pt; BORDER-BOTTOM: white 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: white 1pt solid; PADDING-RIGHT: 5.4pt; BACKGROUND-COLOR: transparent; mso-border-alt: solid white .75pt; mso-border-top-alt: solid #F2F2F2 .75pt"     vAlign=top width=139>
-      <P class=MsoNormal 
-      style="MARGIN: 0cm; LINE-HEIGHT: 16pt; mso-line-height-rule: exactly; mso-add-space: auto"><SPAN 
-      lang=EN-US 
-      style="FONT-SIZE: 10.5pt; FONT-FAMILY: 等线; COLOR: black; mso-bidi-font-family: 等线; mso-bidi-font-size: 12.0pt">20<SUP>th</SUP><o:p></O:P></SPAN></P></TD>
-    <TD                                                  style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: white 1pt solid; WIDTH: 104.25pt; BORDER-BOTTOM: white 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 5.4pt; BACKGROUND-COLOR: transparent; mso-border-alt: solid white .75pt; mso-border-left-alt: solid white .75pt; mso-border-top-alt: solid #F2F2F2 .75pt"     vAlign=top width=139>
-      <P class=MsoNormal 
-      style="MARGIN: 0cm; LINE-HEIGHT: 16pt; mso-line-height-rule: exactly; mso-add-space: auto"><SPAN 
-      lang=EN-US 
-      style="FONT-SIZE: 10.5pt; FONT-FAMILY: 等线; COLOR: black; mso-bidi-font-family: 等线; mso-bidi-font-size: 12.0pt">6<o:p></O:P></SPAN></P></TD>
-    <TD                                                  style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: white 1pt solid; WIDTH: 104.25pt; BORDER-BOTTOM: white 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 5.4pt; BACKGROUND-COLOR: transparent; mso-border-alt: solid white .75pt; mso-border-left-alt: solid white .75pt; mso-border-top-alt: solid #F2F2F2 .75pt"     vAlign=top width=139>
-      <P class=MsoNormal 
-      style="MARGIN: 0cm; LINE-HEIGHT: 16pt; mso-line-height-rule: exactly; mso-add-space: auto"><SPAN 
-      lang=EN-US 
-      style="FONT-SIZE: 10.5pt; FONT-FAMILY: 等线; COLOR: black; mso-bidi-font-family: 等线; mso-bidi-font-size: 12.0pt">11<o:p></O:P></SPAN></P></TD>
-    <TD                                                  style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: white 1pt solid; WIDTH: 104.25pt; BORDER-BOTTOM: white 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 5.4pt; BACKGROUND-COLOR: transparent; mso-border-alt: solid white .75pt; mso-border-left-alt: solid white .75pt; mso-border-top-alt: solid #F2F2F2 .75pt"     vAlign=top width=139>
-      <P class=MsoNormal 
-      style="MARGIN: 0cm; LINE-HEIGHT: 16pt; mso-line-height-rule: exactly; mso-add-space: auto"><SPAN 
-      lang=EN-US 
-      style="FONT-SIZE: 10.5pt; FONT-FAMILY: 等线; COLOR: black; mso-bidi-font-family: 等线; mso-bidi-font-size: 12.0pt">71<o:p></O:P></SPAN></P></TD>
-    <TD                                                  style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: white 1pt solid; WIDTH: 104.25pt; BORDER-BOTTOM: white 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 5.4pt; BACKGROUND-COLOR: transparent; mso-border-alt: solid white .75pt; mso-border-left-alt: solid white .75pt; mso-border-top-alt: solid #F2F2F2 .75pt"     vAlign=top width=139>
-      <P class=MsoNormal 
-      style="MARGIN: 0cm; LINE-HEIGHT: 16pt; mso-line-height-rule: exactly; mso-add-space: auto"><SPAN 
-      lang=EN-US 
-      style="FONT-SIZE: 10.5pt; FONT-FAMILY: 等线; COLOR: black; mso-bidi-font-family: 等线; mso-bidi-font-size: 12.0pt">7<o:p></O:P></SPAN></P></TD></TR></TABLE>
-<P class="paragraph text-align-type-justify" 
-style="TEXT-ALIGN: justify; MARGIN: 0pt; LINE-HEIGHT: 16pt; mso-line-height-rule: exactly"><SPAN 
-style="FONT-SIZE: 10.5pt; TEXT-DECORATION: ; FONT-FAMILY: 等线; VERTICAL-ALIGN: baseline; BACKGROUND: none transparent scroll repeat 0% 0%; FONT-WEIGHT: bold; COLOR: #800000; FONT-STYLE: normal; LETTER-SPACING: 0pt; mso-font-width: 100%; text-decoration-color: " data-font-family="等线">灵能 Psionics </SPAN><SPAN lang=EN-US 
-style="FONT-SIZE: 10.5pt; TEXT-DECORATION: ; FONT-FAMILY: 等线; VERTICAL-ALIGN: baseline; BACKGROUND: none transparent scroll repeat 0% 0%; FONT-WEIGHT: bold; COLOR: #800000; FONT-STYLE: normal; LETTER-SPACING: 0pt; mso-font-width: 100%; text-decoration-color: "><o:p></O:P></SPAN></P>
-<P class="paragraph text-align-type-justify" 
-style="TEXT-ALIGN: justify; MARGIN: 0pt; LINE-HEIGHT: 16pt; mso-line-height-rule: exactly"><SPAN 
-style="FONT-SIZE: 10.5pt; TEXT-DECORATION: ; FONT-FAMILY: 等线; VERTICAL-ALIGN: baseline; BACKGROUND: none transparent scroll repeat 0% 0%; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal; LETTER-SPACING: 0pt; mso-font-width: 100%; text-decoration-color: " data-font-family="等线">作为一个灵能修习者，你可以掌握并使用</SPAN><SPAN 
-style="FONT-SIZE: 10.5pt; TEXT-DECORATION: ; FONT-FAMILY: 等线; VERTICAL-ALIGN: baseline; BACKGROUND: none transparent scroll repeat 0% 0%; FONT-WEIGHT: bold; COLOR: #000000; FONT-STYLE: normal; LETTER-SPACING: 0pt; mso-font-width: 100%; text-decoration-color: " data-font-family="等线">灵能天赋talent</SPAN><SPAN 
-style="FONT-SIZE: 10.5pt; TEXT-DECORATION: ; FONT-FAMILY: 等线; VERTICAL-ALIGN: baseline; BACKGROUND: none transparent scroll repeat 0% 0%; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal; LETTER-SPACING: 0pt; mso-font-width: 100%; text-decoration-color: " data-font-family="等线">和</SPAN><SPAN 
-style="FONT-SIZE: 10.5pt; TEXT-DECORATION: ; FONT-FAMILY: 等线; VERTICAL-ALIGN: baseline; BACKGROUND: none transparent scroll repeat 0% 0%; FONT-WEIGHT: bold; COLOR: #000000; FONT-STYLE: normal; LETTER-SPACING: 0pt; mso-font-width: 100%; text-decoration-color: " data-font-family="等线">灵能灵术discipline</SPAN><SPAN 
-style="FONT-SIZE: 10.5pt; TEXT-DECORATION: ; FONT-FAMILY: 等线; VERTICAL-ALIGN: baseline; BACKGROUND: none transparent scroll repeat 0% 0%; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal; LETTER-SPACING: 0pt; mso-font-width: 100%; text-decoration-color: " data-font-family="等线">，灵能是一种魔法使用的特殊形式，不同于施法。 </SPAN><SPAN 
-lang=EN-US 
-style="FONT-SIZE: 10.5pt; TEXT-DECORATION: ; FONT-FAMILY: 等线; VERTICAL-ALIGN: baseline; BACKGROUND: none transparent scroll repeat 0% 0%; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal; LETTER-SPACING: 0pt; mso-font-width: 100%; text-decoration-color: "><o:p></O:P></SPAN></P>
-<P class="paragraph text-align-type-justify" 
-style="TEXT-ALIGN: justify; MARGIN: 0pt; LINE-HEIGHT: 16pt; mso-line-height-rule: exactly"><SPAN 
-style="FONT-SIZE: 10.5pt; TEXT-DECORATION: ; FONT-FAMILY: 等线; VERTICAL-ALIGN: baseline; BACKGROUND: none transparent scroll repeat 0% 0%; FONT-WEIGHT: bold; COLOR: #800000; FONT-STYLE: normal; LETTER-SPACING: 0pt; mso-font-width: 100%; text-decoration-color: " data-font-family="等线">灵能天赋</SPAN><SPAN lang=EN-US 
-style="FONT-SIZE: 10.5pt; TEXT-DECORATION: ; FONT-FAMILY: 等线; VERTICAL-ALIGN: baseline; BACKGROUND: none transparent scroll repeat 0% 0%; FONT-WEIGHT: bold; COLOR: #800000; FONT-STYLE: normal; LETTER-SPACING: 0pt; mso-font-width: 100%; text-decoration-color: "><o:p></O:P></SPAN></P>
-<P class="paragraph text-align-type-justify" 
-style="TEXT-ALIGN: justify; MARGIN: 0pt; LINE-HEIGHT: 16pt; mso-line-height-rule: exactly"><SPAN 
-style="FONT-SIZE: 10.5pt; TEXT-DECORATION: ; FONT-FAMILY: 等线; VERTICAL-ALIGN: baseline; BACKGROUND: none transparent scroll repeat 0% 0%; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal; LETTER-SPACING: 0pt; mso-font-width: 100%; text-decoration-color: " 
-data-font-family="等线">一个灵能天赋是你掌握的一种微型灵能效果。在1级时，你知晓一个由你选择的灵能天赋。你会在更高级时，学会额外的由你选择的灵能天赋。 
-</SPAN><SPAN lang=EN-US 
-style="FONT-SIZE: 10.5pt; TEXT-DECORATION: ; FONT-FAMILY: 等线; VERTICAL-ALIGN: baseline; BACKGROUND: none transparent scroll repeat 0% 0%; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal; LETTER-SPACING: 0pt; mso-font-width: 100%; text-decoration-color: "><o:p></O:P></SPAN></P>
-<P class="paragraph text-align-type-justify" 
-style="TEXT-ALIGN: justify; MARGIN: 0pt; LINE-HEIGHT: 16pt; mso-line-height-rule: exactly"><SPAN 
-style="FONT-SIZE: 10.5pt; TEXT-DECORATION: ; FONT-FAMILY: 等线; VERTICAL-ALIGN: baseline; BACKGROUND: none transparent scroll repeat 0% 0%; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal; LETTER-SPACING: 0pt; mso-font-width: 100%; text-decoration-color: " 
-data-font-family="等线">秘术师表格中给出的"已知天赋"一列显示了你在各个等级已知的天赋数量；当此数字增加时，你可以知晓一个由你选择的新天赋。</SPAN><SPAN 
-lang=EN-US 
-style="FONT-SIZE: 10.5pt; TEXT-DECORATION: ; FONT-FAMILY: 等线; VERTICAL-ALIGN: baseline; BACKGROUND: none transparent scroll repeat 0% 0%; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal; LETTER-SPACING: 0pt; mso-font-width: 100%; text-decoration-color: "><o:p></O:P></SPAN></P>
-<P class="paragraph text-align-type-justify" 
-style="TEXT-ALIGN: justify; MARGIN: 0pt; LINE-HEIGHT: 16pt; mso-line-height-rule: exactly"><SPAN 
-style="FONT-SIZE: 10.5pt; TEXT-DECORATION: ; FONT-FAMILY: 等线; VERTICAL-ALIGN: baseline; BACKGROUND: none transparent scroll repeat 0% 0%; FONT-WEIGHT: bold; COLOR: #800000; FONT-STYLE: normal; LETTER-SPACING: 0pt; mso-font-width: 100%; text-decoration-color: " data-font-family="等线">灵能灵术 </SPAN><SPAN lang=EN-US 
-style="FONT-SIZE: 10.5pt; TEXT-DECORATION: ; FONT-FAMILY: 等线; VERTICAL-ALIGN: baseline; BACKGROUND: none transparent scroll repeat 0% 0%; FONT-WEIGHT: bold; COLOR: #800000; FONT-STYLE: normal; LETTER-SPACING: 0pt; mso-font-width: 100%; text-decoration-color: "><o:p></O:P></SPAN></P>
-<P class="paragraph text-align-type-justify" 
-style="TEXT-ALIGN: justify; MARGIN: 0pt; LINE-HEIGHT: 16pt; mso-line-height-rule: exactly"><SPAN 
-style="FONT-SIZE: 10.5pt; TEXT-DECORATION: ; FONT-FAMILY: 等线; VERTICAL-ALIGN: baseline; BACKGROUND: none transparent scroll repeat 0% 0%; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal; LETTER-SPACING: 0pt; mso-font-width: 100%; text-decoration-color: " 
-data-font-family="等线">一个灵能灵术是一套让灵能使用者得以展现心灵异能的能力。秘术师同一时间能掌握的灵术十分有限。</SPAN><SPAN 
-lang=EN-US 
-style="FONT-SIZE: 10.5pt; TEXT-DECORATION: ; FONT-FAMILY: 等线; VERTICAL-ALIGN: baseline; BACKGROUND: none transparent scroll repeat 0% 0%; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal; LETTER-SPACING: 0pt; mso-font-width: 100%; text-decoration-color: "><o:p></O:P></SPAN></P>
-<P class="paragraph text-align-type-justify" 
-style="TEXT-ALIGN: justify; MARGIN: 0pt; LINE-HEIGHT: 16pt; mso-line-height-rule: exactly"><SPAN 
-style="FONT-SIZE: 10.5pt; TEXT-DECORATION: ; FONT-FAMILY: 等线; VERTICAL-ALIGN: baseline; BACKGROUND: none transparent scroll repeat 0% 0%; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal; LETTER-SPACING: 0pt; mso-font-width: 100%; text-decoration-color: " 
-data-font-family="等线">表格中给出的"已知灵术"一列显示了你在各个等级已知的灵术总数；当此数字增加时，你可以知晓一个由你选择的新灵术。</SPAN><SPAN 
-lang=EN-US 
-style="FONT-SIZE: 10.5pt; TEXT-DECORATION: ; FONT-FAMILY: 等线; VERTICAL-ALIGN: baseline; BACKGROUND: none transparent scroll repeat 0% 0%; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal; LETTER-SPACING: 0pt; mso-font-width: 100%; text-decoration-color: "><o:p></O:P></SPAN></P>
-<P class="paragraph text-align-type-justify" 
-style="TEXT-ALIGN: justify; MARGIN: 0pt; LINE-HEIGHT: 16pt; mso-line-height-rule: exactly"><SPAN 
-style="FONT-SIZE: 10.5pt; TEXT-DECORATION: ; FONT-FAMILY: 等线; VERTICAL-ALIGN: baseline; BACKGROUND: none transparent scroll repeat 0% 0%; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal; LETTER-SPACING: 0pt; mso-font-width: 100%; text-decoration-color: " 
-data-font-family="等线">另外，你每提升一个等级，都可以将你已知的一个灵术替换为另一个由你选择的灵术。</SPAN><SPAN 
-lang=EN-US 
-style="FONT-SIZE: 10.5pt; TEXT-DECORATION: ; FONT-FAMILY: 等线; VERTICAL-ALIGN: baseline; BACKGROUND: none transparent scroll repeat 0% 0%; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal; LETTER-SPACING: 0pt; mso-font-width: 100%; text-decoration-color: "><o:p></O:P></SPAN></P>
-<P class="paragraph text-align-type-justify" 
-style="TEXT-ALIGN: justify; MARGIN: 0pt; LINE-HEIGHT: 16pt; mso-line-height-rule: exactly"><SPAN 
-style="FONT-SIZE: 10.5pt; TEXT-DECORATION: ; FONT-FAMILY: 等线; VERTICAL-ALIGN: baseline; BACKGROUND: none transparent scroll repeat 0% 0%; FONT-WEIGHT: bold; COLOR: #800000; FONT-STYLE: normal; LETTER-SPACING: 0pt; mso-font-width: 100%; text-decoration-color: " data-font-family="等线">灵力点 </SPAN><SPAN lang=EN-US 
-style="FONT-SIZE: 10.5pt; TEXT-DECORATION: ; FONT-FAMILY: 等线; VERTICAL-ALIGN: baseline; BACKGROUND: none transparent scroll repeat 0% 0%; FONT-WEIGHT: bold; COLOR: #800000; FONT-STYLE: normal; LETTER-SPACING: 0pt; mso-font-width: 100%; text-decoration-color: "><o:p></O:P></SPAN></P>
-<P class="paragraph text-align-type-justify" 
-style="TEXT-ALIGN: justify; MARGIN: 0pt; LINE-HEIGHT: 16pt; mso-line-height-rule: exactly"><SPAN 
-style="FONT-SIZE: 10.5pt; TEXT-DECORATION: ; FONT-FAMILY: 等线; VERTICAL-ALIGN: baseline; BACKGROUND: none transparent scroll repeat 0% 0%; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal; LETTER-SPACING: 0pt; mso-font-width: 100%; text-decoration-color: " 
-data-font-family="等线">你具有一种可以被你已知的灵能灵术使用的内在储备的能量。这种能量以灵力点的形式显现。每个灵能灵术均描述了当你投入特定数量的灵力点时，可以通过它产生何种效应。顺带一提，灵能天赋并不需要使用灵力点。</SPAN><SPAN 
-lang=EN-US 
-style="FONT-SIZE: 10.5pt; TEXT-DECORATION: ; FONT-FAMILY: 等线; VERTICAL-ALIGN: baseline; BACKGROUND: none transparent scroll repeat 0% 0%; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal; LETTER-SPACING: 0pt; mso-font-width: 100%; text-decoration-color: "><o:p></O:P></SPAN></P>
-<P class="paragraph text-align-type-justify" 
-style="TEXT-ALIGN: justify; MARGIN: 0pt; LINE-HEIGHT: 16pt; mso-line-height-rule: exactly"><SPAN 
-style="FONT-SIZE: 10.5pt; TEXT-DECORATION: ; FONT-FAMILY: 等线; VERTICAL-ALIGN: baseline; BACKGROUND: none transparent scroll repeat 0% 0%; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal; LETTER-SPACING: 0pt; mso-font-width: 100%; text-decoration-color: " 
-data-font-family="等线">你的灵能职业等级决定了你具有的灵力点数量，如表中给出的"灵力点"一列所示的那样，表上的数字意为你的灵力点的数量上限。</SPAN><SPAN 
-lang=EN-US 
-style="FONT-SIZE: 10.5pt; TEXT-DECORATION: ; FONT-FAMILY: 等线; VERTICAL-ALIGN: baseline; BACKGROUND: none transparent scroll repeat 0% 0%; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal; LETTER-SPACING: 0pt; mso-font-width: 100%; text-decoration-color: "><o:p></O:P></SPAN></P>
-<P class="paragraph text-align-type-justify" 
-style="TEXT-ALIGN: justify; MARGIN: 0pt; LINE-HEIGHT: 16pt; mso-line-height-rule: exactly"><SPAN 
-style="FONT-SIZE: 10.5pt; TEXT-DECORATION: ; FONT-FAMILY: 等线; VERTICAL-ALIGN: baseline; BACKGROUND: none transparent scroll repeat 0% 0%; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal; LETTER-SPACING: 0pt; mso-font-width: 100%; text-decoration-color: " 
-data-font-family="等线">在你完成一次长休后，你的灵力点总是会恢复到的数量上限。你拥有的灵力点数量无法低于0或高于你的灵力点数量上限。</SPAN><SPAN 
-lang=EN-US 
-style="FONT-SIZE: 10.5pt; TEXT-DECORATION: ; FONT-FAMILY: 等线; VERTICAL-ALIGN: baseline; BACKGROUND: none transparent scroll repeat 0% 0%; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal; LETTER-SPACING: 0pt; mso-font-width: 100%; text-decoration-color: "><o:p></O:P></SPAN></P>
-<P class="paragraph text-align-type-justify" 
-style="TEXT-ALIGN: justify; MARGIN: 0pt; LINE-HEIGHT: 16pt; mso-line-height-rule: exactly"><SPAN 
-style="FONT-SIZE: 10.5pt; TEXT-DECORATION: ; FONT-FAMILY: 等线; VERTICAL-ALIGN: baseline; BACKGROUND: none transparent scroll repeat 0% 0%; FONT-WEIGHT: bold; COLOR: #800000; FONT-STYLE: normal; LETTER-SPACING: 0pt; mso-font-width: 100%; text-decoration-color: " data-font-family="等线">灵力限制</SPAN><SPAN lang=EN-US 
-style="FONT-SIZE: 10.5pt; TEXT-DECORATION: ; FONT-FAMILY: 等线; VERTICAL-ALIGN: baseline; BACKGROUND: none transparent scroll repeat 0% 0%; FONT-WEIGHT: bold; COLOR: #800000; FONT-STYLE: normal; LETTER-SPACING: 0pt; mso-font-width: 100%; text-decoration-color: "><o:p></O:P></SPAN></P>
-<P class="paragraph text-align-type-justify" 
-style="TEXT-ALIGN: justify; MARGIN: 0pt; LINE-HEIGHT: 16pt; mso-line-height-rule: exactly"><SPAN 
-style="FONT-SIZE: 10.5pt; TEXT-DECORATION: ; FONT-FAMILY: 等线; VERTICAL-ALIGN: baseline; BACKGROUND: none transparent scroll repeat 0% 0%; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal; LETTER-SPACING: 0pt; mso-font-width: 100%; text-decoration-color: " 
-data-font-family="等线">尽管你有着可观的灵能能量，但你在引导这股能力时仍需要训练与练习。</SPAN><SPAN lang=EN-US 
-style="FONT-SIZE: 10.5pt; TEXT-DECORATION: ; FONT-FAMILY: 等线; VERTICAL-ALIGN: baseline; BACKGROUND: none transparent scroll repeat 0% 0%; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal; LETTER-SPACING: 0pt; mso-font-width: 100%; text-decoration-color: "><o:p></O:P></SPAN></P>
-<P class="paragraph text-align-type-justify" 
-style="TEXT-ALIGN: justify; MARGIN: 0pt; LINE-HEIGHT: 16pt; mso-line-height-rule: exactly"><SPAN 
-style="FONT-SIZE: 10.5pt; TEXT-DECORATION: ; FONT-FAMILY: 等线; VERTICAL-ALIGN: baseline; BACKGROUND: none transparent scroll repeat 0% 0%; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal; LETTER-SPACING: 0pt; mso-font-width: 100%; text-decoration-color: " 
-data-font-family="等线">你能用于激活一个灵术的灵力点数量有着限制。此限制基于你的灵能等级，如同表中给出的"灵力限制"一列所示。</SPAN><SPAN 
-lang=EN-US 
-style="FONT-SIZE: 10.5pt; TEXT-DECORATION: ; FONT-FAMILY: 等线; VERTICAL-ALIGN: baseline; BACKGROUND: none transparent scroll repeat 0% 0%; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal; LETTER-SPACING: 0pt; mso-font-width: 100%; text-decoration-color: "><o:p></O:P></SPAN></P>
-<P class="paragraph text-align-type-justify" 
-style="TEXT-ALIGN: justify; MARGIN: 0pt; LINE-HEIGHT: 16pt; mso-line-height-rule: exactly"><SPAN 
-style="FONT-SIZE: 10.5pt; TEXT-DECORATION: ; FONT-FAMILY: 等线; VERTICAL-ALIGN: baseline; BACKGROUND: none transparent scroll repeat 0% 0%; FONT-WEIGHT: bold; COLOR: #800000; FONT-STYLE: normal; LETTER-SPACING: 0pt; mso-font-width: 100%; text-decoration-color: " data-font-family="等线">心灵集中 </SPAN><SPAN lang=EN-US 
-style="FONT-SIZE: 10.5pt; TEXT-DECORATION: ; FONT-FAMILY: 等线; VERTICAL-ALIGN: baseline; BACKGROUND: none transparent scroll repeat 0% 0%; FONT-WEIGHT: bold; COLOR: #800000; FONT-STYLE: normal; LETTER-SPACING: 0pt; mso-font-width: 100%; text-decoration-color: "><o:p></O:P></SPAN></P>
-<P class="paragraph text-align-type-justify" 
-style="TEXT-ALIGN: justify; MARGIN: 0pt; LINE-HEIGHT: 16pt; mso-line-height-rule: exactly"><SPAN 
-style="FONT-SIZE: 10.5pt; TEXT-DECORATION: ; FONT-FAMILY: 等线; VERTICAL-ALIGN: baseline; BACKGROUND: none transparent scroll repeat 0% 0%; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal; LETTER-SPACING: 0pt; mso-font-width: 100%; text-decoration-color: " 
-data-font-family="等线">你可以在将你的心灵能量集中到你的一个灵术上，以从中获取持续性的增益效应。</SPAN><SPAN 
-lang=EN-US 
-style="FONT-SIZE: 10.5pt; TEXT-DECORATION: ; FONT-FAMILY: 等线; VERTICAL-ALIGN: baseline; BACKGROUND: none transparent scroll repeat 0% 0%; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal; LETTER-SPACING: 0pt; mso-font-width: 100%; text-decoration-color: "><o:p></O:P></SPAN></P>
-<P class="paragraph text-align-type-justify" 
-style="TEXT-ALIGN: justify; MARGIN: 0pt; LINE-HEIGHT: 16pt; mso-line-height-rule: exactly"><SPAN 
-style="FONT-SIZE: 10.5pt; TEXT-DECORATION: ; FONT-FAMILY: 等线; VERTICAL-ALIGN: baseline; BACKGROUND: none transparent scroll repeat 0% 0%; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal; LETTER-SPACING: 0pt; mso-font-width: 100%; text-decoration-color: " 
-data-font-family="等线">以一个附赠动作，你可以选择一个你的灵术并得到其心灵集中增益，这详述于对应灵术的描述中。该增益持续到你陷入失能状态或使用另一个附赠动作来选择一个不同灵能集中增益为止。你在同一时间仅能拥有一个心灵集中增益，且在一个灵术上使用心灵集中并不会限制你使用其他灵术的能力选项。</SPAN><SPAN 
-lang=EN-US 
-style="FONT-SIZE: 10.5pt; TEXT-DECORATION: ; FONT-FAMILY: 等线; VERTICAL-ALIGN: baseline; BACKGROUND: none transparent scroll repeat 0% 0%; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal; LETTER-SPACING: 0pt; mso-font-width: 100%; text-decoration-color: "><o:p></O:P></SPAN></P>
-<P class="paragraph text-align-type-justify" 
-style="TEXT-ALIGN: justify; MARGIN: 0pt; LINE-HEIGHT: 16pt; mso-line-height-rule: exactly"><SPAN 
-style="FONT-SIZE: 10.5pt; TEXT-DECORATION: ; FONT-FAMILY: 等线; VERTICAL-ALIGN: baseline; BACKGROUND: none transparent scroll repeat 0% 0%; FONT-WEIGHT: bold; COLOR: #800000; FONT-STYLE: normal; LETTER-SPACING: 0pt; mso-font-width: 100%; text-decoration-color: " data-font-family="等线">灵能属性Pisonic Ability</SPAN><SPAN 
-lang=EN-US 
-style="FONT-SIZE: 10.5pt; TEXT-DECORATION: ; FONT-FAMILY: 等线; VERTICAL-ALIGN: baseline; BACKGROUND: none transparent scroll repeat 0% 0%; FONT-WEIGHT: bold; COLOR: #800000; FONT-STYLE: normal; LETTER-SPACING: 0pt; mso-font-width: 100%; text-decoration-color: "><o:p></O:P></SPAN></P>
-<P class="paragraph text-align-type-justify" 
-style="TEXT-ALIGN: justify; MARGIN: 0pt; LINE-HEIGHT: 16pt; mso-line-height-rule: exactly"><SPAN 
-style="FONT-SIZE: 10.5pt; TEXT-DECORATION: ; FONT-FAMILY: 等线; VERTICAL-ALIGN: baseline; BACKGROUND: none transparent scroll repeat 0% 0%; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal; LETTER-SPACING: 0pt; mso-font-width: 100%; text-decoration-color: " 
-data-font-family="等线">智力是你的灵术的灵能属性。你用你的智力调整值来决定你灵术豁免DC和灵术攻击调整值。</SPAN><SPAN 
-lang=EN-US 
-style="FONT-SIZE: 10.5pt; TEXT-DECORATION: ; FONT-FAMILY: 等线; VERTICAL-ALIGN: baseline; BACKGROUND: none transparent scroll repeat 0% 0%; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal; LETTER-SPACING: 0pt; mso-font-width: 100%; text-decoration-color: "><o:p></O:P></SPAN></P>
-<P class="paragraph text-align-type-justify" 
-style="TEXT-ALIGN: justify; MARGIN: 0pt; LINE-HEIGHT: 16pt; mso-line-height-rule: exactly"><SPAN 
-style="FONT-SIZE: 10.5pt; TEXT-DECORATION: ; FONT-FAMILY: 等线; VERTICAL-ALIGN: baseline; BACKGROUND: none transparent scroll repeat 0% 0%; FONT-WEIGHT: bold; COLOR: #000000; FONT-STYLE: normal; LETTER-SPACING: 0pt; mso-font-width: 100%; text-decoration-color: " data-font-family="等线">灵术豁免DC</SPAN><SPAN 
-style="FONT-SIZE: 10.5pt; TEXT-DECORATION: ; FONT-FAMILY: 等线; VERTICAL-ALIGN: baseline; BACKGROUND: none transparent scroll repeat 0% 0%; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal; LETTER-SPACING: 0pt; mso-font-width: 100%; text-decoration-color: " data-font-family="等线">=8+你的智力属性调整值+你的熟练加值</SPAN><SPAN 
-lang=EN-US 
-style="FONT-SIZE: 10.5pt; TEXT-DECORATION: ; FONT-FAMILY: 等线; VERTICAL-ALIGN: baseline; BACKGROUND: none transparent scroll repeat 0% 0%; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal; LETTER-SPACING: 0pt; mso-font-width: 100%; text-decoration-color: "><o:p></O:P></SPAN></P>
-<P class="paragraph text-align-type-justify" 
-style="TEXT-ALIGN: justify; MARGIN: 0pt; LINE-HEIGHT: 16pt; mso-line-height-rule: exactly"><SPAN 
-style="FONT-SIZE: 10.5pt; TEXT-DECORATION: ; FONT-FAMILY: 等线; VERTICAL-ALIGN: baseline; BACKGROUND: none transparent scroll repeat 0% 0%; FONT-WEIGHT: bold; COLOR: #000000; FONT-STYLE: normal; LETTER-SPACING: 0pt; mso-font-width: 100%; text-decoration-color: " data-font-family="等线">灵术攻击调整值</SPAN><SPAN 
-style="FONT-SIZE: 10.5pt; TEXT-DECORATION: ; FONT-FAMILY: 等线; VERTICAL-ALIGN: baseline; BACKGROUND: none transparent scroll repeat 0% 0%; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal; LETTER-SPACING: 0pt; mso-font-width: 100%; text-decoration-color: " data-font-family="等线">=你的智力属性调整值+你的熟练加值</SPAN><SPAN 
-lang=EN-US 
-style="FONT-SIZE: 10.5pt; TEXT-DECORATION: ; FONT-FAMILY: 等线; VERTICAL-ALIGN: baseline; BACKGROUND: none transparent scroll repeat 0% 0%; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal; LETTER-SPACING: 0pt; mso-font-width: 100%; text-decoration-color: "><o:p></O:P></SPAN></P></DIV></DIV></SPAN></H2></body>
+  <TR style="">
+    <TD                                                  style="BORDER-TOP: white 1pt solid; BORDER-RIGHT: white 1pt solid; WIDTH: 104.25pt; BORDER-BOTTOM: #f2f2f2 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: white 1pt solid; PADDING-RIGHT: 5.4pt; BACKGROUND-COLOR: transparent;"     vAlign=top width=139>
+      <DIV 
+      style="MARGIN: 0cm; LINE-HEIGHT: 16pt;"><B 
+      style=""><SPAN 
+      style=" FONT-SIZE: 11pt; FONT-FAMILY: Arial, Helvetica, sans-serif; COLOR: #333333;">职业等级</SPAN></B></DIV></TD>
+    <TD                                                    style="BORDER-TOP: white 1pt solid; BORDER-RIGHT: white 1pt solid; WIDTH: 104.25pt; BORDER-BOTTOM: #f2f2f2 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 5.4pt; BACKGROUND-COLOR: transparent;"     vAlign=top width=139>
+      <DIV 
+      style="MARGIN: 0cm; LINE-HEIGHT: 16pt;"><B 
+      style=""><SPAN 
+      style=" FONT-SIZE: 11pt; FONT-FAMILY: Arial, Helvetica, sans-serif; COLOR: #333333;">已知天赋</SPAN></B></DIV></TD>
+    <TD                                                    style="BORDER-TOP: white 1pt solid; BORDER-RIGHT: white 1pt solid; WIDTH: 104.25pt; BORDER-BOTTOM: #f2f2f2 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 5.4pt; BACKGROUND-COLOR: transparent;"     vAlign=top width=139>
+      <DIV 
+      style="MARGIN: 0cm; LINE-HEIGHT: 16pt;"><B 
+      style=""><SPAN 
+      style=" FONT-SIZE: 11pt; FONT-FAMILY: Arial, Helvetica, sans-serif; COLOR: #333333;">已知灵术</SPAN></B></DIV></TD>
+    <TD                                                    style="BORDER-TOP: white 1pt solid; BORDER-RIGHT: white 1pt solid; WIDTH: 104.25pt; BORDER-BOTTOM: #f2f2f2 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 5.4pt; BACKGROUND-COLOR: transparent;"     vAlign=top width=139>
+      <DIV 
+      style="MARGIN: 0cm; LINE-HEIGHT: 16pt;"><B 
+      style=""><SPAN 
+      style=" FONT-SIZE: 11pt; FONT-FAMILY: Arial, Helvetica, sans-serif; COLOR: #333333;">灵力点</SPAN></B></DIV></TD>
+    <TD                                                    style="BORDER-TOP: white 1pt solid; BORDER-RIGHT: white 1pt solid; WIDTH: 104.25pt; BORDER-BOTTOM: #f2f2f2 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 5.4pt; BACKGROUND-COLOR: transparent;"     vAlign=top width=139>
+      <DIV 
+      style="MARGIN: 0cm; LINE-HEIGHT: 16pt;"><B 
+      style=""><SPAN 
+      style=" FONT-SIZE: 11pt; FONT-FAMILY: Arial, Helvetica, sans-serif; COLOR: #333333;">灵力限制</SPAN></B></DIV></TD></TR>
+  <TR style="">
+    <TD                                                style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: #f2f2f2 1pt solid; WIDTH: 104.25pt; BACKGROUND: #f2f2f2; BORDER-BOTTOM: #f2f2f2 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: #f2f2f2 1pt solid; PADDING-RIGHT: 5.4pt;"     vAlign=top width=139>
+      <DIV 
+      style="MARGIN: 0cm; LINE-HEIGHT: 16pt;"><SPAN 
+      lang=EN-US 
+      style=" FONT-SIZE: 11pt; FONT-FAMILY: Arial, Helvetica, sans-serif; COLOR: #333333;">1<SUP>st</SUP></SPAN></DIV></TD>
+    <TD                                                  style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: #f2f2f2 1pt solid; WIDTH: 104.25pt; BACKGROUND: #f2f2f2; BORDER-BOTTOM: #f2f2f2 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 5.4pt;"     vAlign=top width=139>
+      <DIV 
+      style="MARGIN: 0cm; LINE-HEIGHT: 16pt;"><SPAN 
+      lang=EN-US 
+      style=" FONT-SIZE: 11pt; FONT-FAMILY: Arial, Helvetica, sans-serif; COLOR: #333333;">1</SPAN></DIV></TD>
+    <TD                                                  style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: #f2f2f2 1pt solid; WIDTH: 104.25pt; BACKGROUND: #f2f2f2; BORDER-BOTTOM: #f2f2f2 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 5.4pt;"     vAlign=top width=139>
+      <DIV 
+      style="MARGIN: 0cm; LINE-HEIGHT: 16pt;"><SPAN 
+      lang=EN-US 
+      style=" FONT-SIZE: 11pt; FONT-FAMILY: Arial, Helvetica, sans-serif; COLOR: #333333;">1</SPAN></DIV></TD>
+    <TD                                                  style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: #f2f2f2 1pt solid; WIDTH: 104.25pt; BACKGROUND: #f2f2f2; BORDER-BOTTOM: #f2f2f2 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 5.4pt;"     vAlign=top width=139>
+      <DIV 
+      style="MARGIN: 0cm; LINE-HEIGHT: 16pt;"><SPAN 
+      lang=EN-US 
+      style=" FONT-SIZE: 11pt; FONT-FAMILY: Arial, Helvetica, sans-serif; COLOR: #333333;">4</SPAN></DIV></TD>
+    <TD                                                  style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: #f2f2f2 1pt solid; WIDTH: 104.25pt; BACKGROUND: #f2f2f2; BORDER-BOTTOM: #f2f2f2 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 5.4pt;"     vAlign=top width=139>
+      <DIV 
+      style="MARGIN: 0cm; LINE-HEIGHT: 16pt;"><SPAN 
+      lang=EN-US 
+      style=" FONT-SIZE: 11pt; FONT-FAMILY: Arial, Helvetica, sans-serif; COLOR: #333333;">2</SPAN></DIV></TD></TR>
+  <TR style="">
+    <TD                                                    style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: white 1pt solid; WIDTH: 104.25pt; BORDER-BOTTOM: #f2f2f2 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: white 1pt solid; PADDING-RIGHT: 5.4pt; BACKGROUND-COLOR: transparent;"     vAlign=top width=139>
+      <DIV 
+      style="MARGIN: 0cm; LINE-HEIGHT: 16pt;"><SPAN 
+      lang=EN-US 
+      style=" FONT-SIZE: 11pt; FONT-FAMILY: Arial, Helvetica, sans-serif; COLOR: #333333;">2<SUP>nd</SUP></SPAN></DIV></TD>
+    <TD                                                  style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: white 1pt solid; WIDTH: 104.25pt; BORDER-BOTTOM: #f2f2f2 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 5.4pt; BACKGROUND-COLOR: transparent;"     vAlign=top width=139>
+      <DIV 
+      style="MARGIN: 0cm; LINE-HEIGHT: 16pt;"><SPAN 
+      lang=EN-US 
+      style=" FONT-SIZE: 11pt; FONT-FAMILY: Arial, Helvetica, sans-serif; COLOR: #333333;">1</SPAN></DIV></TD>
+    <TD                                                  style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: white 1pt solid; WIDTH: 104.25pt; BORDER-BOTTOM: #f2f2f2 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 5.4pt; BACKGROUND-COLOR: transparent;"     vAlign=top width=139>
+      <DIV 
+      style="MARGIN: 0cm; LINE-HEIGHT: 16pt;"><SPAN 
+      lang=EN-US 
+      style=" FONT-SIZE: 11pt; FONT-FAMILY: Arial, Helvetica, sans-serif; COLOR: #333333;">2</SPAN></DIV></TD>
+    <TD                                                  style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: white 1pt solid; WIDTH: 104.25pt; BORDER-BOTTOM: #f2f2f2 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 5.4pt; BACKGROUND-COLOR: transparent;"     vAlign=top width=139>
+      <DIV 
+      style="MARGIN: 0cm; LINE-HEIGHT: 16pt;"><SPAN 
+      lang=EN-US 
+      style=" FONT-SIZE: 11pt; FONT-FAMILY: Arial, Helvetica, sans-serif; COLOR: #333333;">6</SPAN></DIV></TD>
+    <TD                                                  style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: white 1pt solid; WIDTH: 104.25pt; BORDER-BOTTOM: #f2f2f2 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 5.4pt; BACKGROUND-COLOR: transparent;"     vAlign=top width=139>
+      <DIV 
+      style="MARGIN: 0cm; LINE-HEIGHT: 16pt;"><SPAN 
+      lang=EN-US 
+      style=" FONT-SIZE: 11pt; FONT-FAMILY: Arial, Helvetica, sans-serif; COLOR: #333333;">2</SPAN></DIV></TD></TR>
+  <TR style="">
+    <TD                                                style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: #f2f2f2 1pt solid; WIDTH: 104.25pt; BACKGROUND: #f2f2f2; BORDER-BOTTOM: #f2f2f2 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: #f2f2f2 1pt solid; PADDING-RIGHT: 5.4pt;"     vAlign=top width=139>
+      <DIV 
+      style="MARGIN: 0cm; LINE-HEIGHT: 16pt;"><SPAN 
+      lang=EN-US 
+      style=" FONT-SIZE: 11pt; FONT-FAMILY: Arial, Helvetica, sans-serif; COLOR: #333333;">3<SUP>rd</SUP></SPAN></DIV></TD>
+    <TD                                                  style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: #f2f2f2 1pt solid; WIDTH: 104.25pt; BACKGROUND: #f2f2f2; BORDER-BOTTOM: #f2f2f2 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 5.4pt;"     vAlign=top width=139>
+      <DIV 
+      style="MARGIN: 0cm; LINE-HEIGHT: 16pt;"><SPAN 
+      lang=EN-US 
+      style=" FONT-SIZE: 11pt; FONT-FAMILY: Arial, Helvetica, sans-serif; COLOR: #333333;">2</SPAN></DIV></TD>
+    <TD                                                  style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: #f2f2f2 1pt solid; WIDTH: 104.25pt; BACKGROUND: #f2f2f2; BORDER-BOTTOM: #f2f2f2 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 5.4pt;"     vAlign=top width=139>
+      <DIV 
+      style="MARGIN: 0cm; LINE-HEIGHT: 16pt;"><SPAN 
+      lang=EN-US 
+      style=" FONT-SIZE: 11pt; FONT-FAMILY: Arial, Helvetica, sans-serif; COLOR: #333333;">3</SPAN></DIV></TD>
+    <TD                                                  style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: #f2f2f2 1pt solid; WIDTH: 104.25pt; BACKGROUND: #f2f2f2; BORDER-BOTTOM: #f2f2f2 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 5.4pt;"     vAlign=top width=139>
+      <DIV 
+      style="MARGIN: 0cm; LINE-HEIGHT: 16pt;"><SPAN 
+      lang=EN-US 
+      style=" FONT-SIZE: 11pt; FONT-FAMILY: Arial, Helvetica, sans-serif; COLOR: #333333;">14</SPAN></DIV></TD>
+    <TD                                                  style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: #f2f2f2 1pt solid; WIDTH: 104.25pt; BACKGROUND: #f2f2f2; BORDER-BOTTOM: #f2f2f2 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 5.4pt;"     vAlign=top width=139>
+      <DIV 
+      style="MARGIN: 0cm; LINE-HEIGHT: 16pt;"><SPAN 
+      lang=EN-US 
+      style=" FONT-SIZE: 11pt; FONT-FAMILY: Arial, Helvetica, sans-serif; COLOR: #333333;">3</SPAN></DIV></TD></TR>
+  <TR style="">
+    <TD                                                    style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: white 1pt solid; WIDTH: 104.25pt; BORDER-BOTTOM: #f2f2f2 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: white 1pt solid; PADDING-RIGHT: 5.4pt; BACKGROUND-COLOR: transparent;"     vAlign=top width=139>
+      <DIV 
+      style="MARGIN: 0cm; LINE-HEIGHT: 16pt;"><SPAN 
+      lang=EN-US 
+      style=" FONT-SIZE: 11pt; FONT-FAMILY: Arial, Helvetica, sans-serif; COLOR: #333333;">4<SUP>th 
+      </SUP></SPAN></DIV></TD>
+    <TD                                                  style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: white 1pt solid; WIDTH: 104.25pt; BORDER-BOTTOM: #f2f2f2 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 5.4pt; BACKGROUND-COLOR: transparent;"     vAlign=top width=139>
+      <DIV 
+      style="MARGIN: 0cm; LINE-HEIGHT: 16pt;"><SPAN 
+      lang=EN-US 
+      style=" FONT-SIZE: 11pt; FONT-FAMILY: Arial, Helvetica, sans-serif; COLOR: #333333;">2</SPAN></DIV></TD>
+    <TD                                                  style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: white 1pt solid; WIDTH: 104.25pt; BORDER-BOTTOM: #f2f2f2 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 5.4pt; BACKGROUND-COLOR: transparent;"     vAlign=top width=139>
+      <DIV 
+      style="MARGIN: 0cm; LINE-HEIGHT: 16pt;"><SPAN 
+      lang=EN-US 
+      style=" FONT-SIZE: 11pt; FONT-FAMILY: Arial, Helvetica, sans-serif; COLOR: #333333;">4</SPAN></DIV></TD>
+    <TD                                                  style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: white 1pt solid; WIDTH: 104.25pt; BORDER-BOTTOM: #f2f2f2 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 5.4pt; BACKGROUND-COLOR: transparent;"     vAlign=top width=139>
+      <DIV 
+      style="MARGIN: 0cm; LINE-HEIGHT: 16pt;"><SPAN 
+      lang=EN-US 
+      style=" FONT-SIZE: 11pt; FONT-FAMILY: Arial, Helvetica, sans-serif; COLOR: #333333;">17</SPAN></DIV></TD>
+    <TD                                                  style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: white 1pt solid; WIDTH: 104.25pt; BORDER-BOTTOM: #f2f2f2 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 5.4pt; BACKGROUND-COLOR: transparent;"     vAlign=top width=139>
+      <DIV 
+      style="MARGIN: 0cm; LINE-HEIGHT: 16pt;"><SPAN 
+      lang=EN-US 
+      style=" FONT-SIZE: 11pt; FONT-FAMILY: Arial, Helvetica, sans-serif; COLOR: #333333;">3</SPAN></DIV></TD></TR>
+  <TR style="">
+    <TD                                                style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: #f2f2f2 1pt solid; WIDTH: 104.25pt; BACKGROUND: #f2f2f2; BORDER-BOTTOM: #f2f2f2 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: #f2f2f2 1pt solid; PADDING-RIGHT: 5.4pt;"     vAlign=top width=139>
+      <DIV 
+      style="MARGIN: 0cm; LINE-HEIGHT: 16pt;"><SPAN 
+      lang=EN-US 
+      style=" FONT-SIZE: 11pt; FONT-FAMILY: Arial, Helvetica, sans-serif; COLOR: #333333;">5<SUP>th</SUP></SPAN></DIV></TD>
+    <TD                                                  style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: #f2f2f2 1pt solid; WIDTH: 104.25pt; BACKGROUND: #f2f2f2; BORDER-BOTTOM: #f2f2f2 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 5.4pt;"     vAlign=top width=139>
+      <DIV 
+      style="MARGIN: 0cm; LINE-HEIGHT: 16pt;"><SPAN 
+      lang=EN-US 
+      style=" FONT-SIZE: 11pt; FONT-FAMILY: Arial, Helvetica, sans-serif; COLOR: #333333;">2</SPAN></DIV></TD>
+    <TD                                                  style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: #f2f2f2 1pt solid; WIDTH: 104.25pt; BACKGROUND: #f2f2f2; BORDER-BOTTOM: #f2f2f2 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 5.4pt;"     vAlign=top width=139>
+      <DIV 
+      style="MARGIN: 0cm; LINE-HEIGHT: 16pt;"><SPAN 
+      lang=EN-US 
+      style=" FONT-SIZE: 11pt; FONT-FAMILY: Arial, Helvetica, sans-serif; COLOR: #333333;">5</SPAN></DIV></TD>
+    <TD                                                  style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: #f2f2f2 1pt solid; WIDTH: 104.25pt; BACKGROUND: #f2f2f2; BORDER-BOTTOM: #f2f2f2 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 5.4pt;"     vAlign=top width=139>
+      <DIV 
+      style="MARGIN: 0cm; LINE-HEIGHT: 16pt;"><SPAN 
+      lang=EN-US 
+      style=" FONT-SIZE: 11pt; FONT-FAMILY: Arial, Helvetica, sans-serif; COLOR: #333333;">27</SPAN></DIV></TD>
+    <TD                                                  style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: #f2f2f2 1pt solid; WIDTH: 104.25pt; BACKGROUND: #f2f2f2; BORDER-BOTTOM: #f2f2f2 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 5.4pt;"     vAlign=top width=139>
+      <DIV 
+      style="MARGIN: 0cm; LINE-HEIGHT: 16pt;"><SPAN 
+      lang=EN-US 
+      style=" FONT-SIZE: 11pt; FONT-FAMILY: Arial, Helvetica, sans-serif; COLOR: #333333;">5</SPAN></DIV></TD></TR>
+  <TR style="">
+    <TD                                                    style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: white 1pt solid; WIDTH: 104.25pt; BORDER-BOTTOM: #f2f2f2 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: white 1pt solid; PADDING-RIGHT: 5.4pt; BACKGROUND-COLOR: transparent;"     vAlign=top width=139>
+      <DIV 
+      style="MARGIN: 0cm; LINE-HEIGHT: 16pt;"><SPAN 
+      lang=EN-US 
+      style=" FONT-SIZE: 11pt; FONT-FAMILY: Arial, Helvetica, sans-serif; COLOR: #333333;">6<SUP>th</SUP></SPAN></DIV></TD>
+    <TD                                                  style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: white 1pt solid; WIDTH: 104.25pt; BORDER-BOTTOM: #f2f2f2 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 5.4pt; BACKGROUND-COLOR: transparent;"     vAlign=top width=139>
+      <DIV 
+      style="MARGIN: 0cm; LINE-HEIGHT: 16pt;"><SPAN 
+      lang=EN-US 
+      style=" FONT-SIZE: 11pt; FONT-FAMILY: Arial, Helvetica, sans-serif; COLOR: #333333;">3</SPAN></DIV></TD>
+    <TD                                                  style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: white 1pt solid; WIDTH: 104.25pt; BORDER-BOTTOM: #f2f2f2 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 5.4pt; BACKGROUND-COLOR: transparent;"     vAlign=top width=139>
+      <DIV 
+      style="MARGIN: 0cm; LINE-HEIGHT: 16pt;"><SPAN 
+      lang=EN-US 
+      style=" FONT-SIZE: 11pt; FONT-FAMILY: Arial, Helvetica, sans-serif; COLOR: #333333;">5</SPAN></DIV></TD>
+    <TD                                                  style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: white 1pt solid; WIDTH: 104.25pt; BORDER-BOTTOM: #f2f2f2 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 5.4pt; BACKGROUND-COLOR: transparent;"     vAlign=top width=139>
+      <DIV 
+      style="MARGIN: 0cm; LINE-HEIGHT: 16pt;"><SPAN 
+      lang=EN-US 
+      style=" FONT-SIZE: 11pt; FONT-FAMILY: Arial, Helvetica, sans-serif; COLOR: #333333;">32</SPAN></DIV></TD>
+    <TD                                                  style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: white 1pt solid; WIDTH: 104.25pt; BORDER-BOTTOM: #f2f2f2 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 5.4pt; BACKGROUND-COLOR: transparent;"     vAlign=top width=139>
+      <DIV 
+      style="MARGIN: 0cm; LINE-HEIGHT: 16pt;"><SPAN 
+      lang=EN-US 
+      style=" FONT-SIZE: 11pt; FONT-FAMILY: Arial, Helvetica, sans-serif; COLOR: #333333;">5</SPAN></DIV></TD></TR>
+  <TR style="">
+    <TD                                                style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: #f2f2f2 1pt solid; WIDTH: 104.25pt; BACKGROUND: #f2f2f2; BORDER-BOTTOM: #f2f2f2 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: #f2f2f2 1pt solid; PADDING-RIGHT: 5.4pt;"     vAlign=top width=139>
+      <DIV 
+      style="MARGIN: 0cm; LINE-HEIGHT: 16pt;"><SPAN 
+      lang=EN-US 
+      style=" FONT-SIZE: 11pt; FONT-FAMILY: Arial, Helvetica, sans-serif; COLOR: #333333;">7<SUP>th</SUP></SPAN></DIV></TD>
+    <TD                                                  style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: #f2f2f2 1pt solid; WIDTH: 104.25pt; BACKGROUND: #f2f2f2; BORDER-BOTTOM: #f2f2f2 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 5.4pt;"     vAlign=top width=139>
+      <DIV 
+      style="MARGIN: 0cm; LINE-HEIGHT: 16pt;"><SPAN 
+      lang=EN-US 
+      style=" FONT-SIZE: 11pt; FONT-FAMILY: Arial, Helvetica, sans-serif; COLOR: #333333;">3</SPAN></DIV></TD>
+    <TD                                                  style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: #f2f2f2 1pt solid; WIDTH: 104.25pt; BACKGROUND: #f2f2f2; BORDER-BOTTOM: #f2f2f2 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 5.4pt;"     vAlign=top width=139>
+      <DIV 
+      style="MARGIN: 0cm; LINE-HEIGHT: 16pt;"><SPAN 
+      lang=EN-US 
+      style=" FONT-SIZE: 11pt; FONT-FAMILY: Arial, Helvetica, sans-serif; COLOR: #333333;">6</SPAN></DIV></TD>
+    <TD                                                  style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: #f2f2f2 1pt solid; WIDTH: 104.25pt; BACKGROUND: #f2f2f2; BORDER-BOTTOM: #f2f2f2 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 5.4pt;"     vAlign=top width=139>
+      <DIV 
+      style="MARGIN: 0cm; LINE-HEIGHT: 16pt;"><SPAN 
+      lang=EN-US 
+      style=" FONT-SIZE: 11pt; FONT-FAMILY: Arial, Helvetica, sans-serif; COLOR: #333333;">38</SPAN></DIV></TD>
+    <TD                                                  style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: #f2f2f2 1pt solid; WIDTH: 104.25pt; BACKGROUND: #f2f2f2; BORDER-BOTTOM: #f2f2f2 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 5.4pt;"     vAlign=top width=139>
+      <DIV 
+      style="MARGIN: 0cm; LINE-HEIGHT: 16pt;"><SPAN 
+      lang=EN-US 
+      style=" FONT-SIZE: 11pt; FONT-FAMILY: Arial, Helvetica, sans-serif; COLOR: #333333;">6</SPAN></DIV></TD></TR>
+  <TR style="">
+    <TD                                                    style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: white 1pt solid; WIDTH: 104.25pt; BORDER-BOTTOM: #f2f2f2 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: white 1pt solid; PADDING-RIGHT: 5.4pt; BACKGROUND-COLOR: transparent;"     vAlign=top width=139>
+      <DIV 
+      style="MARGIN: 0cm; LINE-HEIGHT: 16pt;"><SPAN 
+      lang=EN-US 
+      style=" FONT-SIZE: 11pt; FONT-FAMILY: Arial, Helvetica, sans-serif; COLOR: #333333;">8<SUP>th</SUP></SPAN></DIV></TD>
+    <TD                                                  style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: white 1pt solid; WIDTH: 104.25pt; BORDER-BOTTOM: #f2f2f2 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 5.4pt; BACKGROUND-COLOR: transparent;"     vAlign=top width=139>
+      <DIV 
+      style="MARGIN: 0cm; LINE-HEIGHT: 16pt;"><SPAN 
+      lang=EN-US 
+      style=" FONT-SIZE: 11pt; FONT-FAMILY: Arial, Helvetica, sans-serif; COLOR: #333333;">3</SPAN></DIV></TD>
+    <TD                                                  style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: white 1pt solid; WIDTH: 104.25pt; BORDER-BOTTOM: #f2f2f2 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 5.4pt; BACKGROUND-COLOR: transparent;"     vAlign=top width=139>
+      <DIV 
+      style="MARGIN: 0cm; LINE-HEIGHT: 16pt;"><SPAN 
+      lang=EN-US 
+      style=" FONT-SIZE: 11pt; FONT-FAMILY: Arial, Helvetica, sans-serif; COLOR: #333333;">6</SPAN></DIV></TD>
+    <TD                                                  style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: white 1pt solid; WIDTH: 104.25pt; BORDER-BOTTOM: #f2f2f2 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 5.4pt; BACKGROUND-COLOR: transparent;"     vAlign=top width=139>
+      <DIV 
+      style="MARGIN: 0cm; LINE-HEIGHT: 16pt;"><SPAN 
+      lang=EN-US 
+      style=" FONT-SIZE: 11pt; FONT-FAMILY: Arial, Helvetica, sans-serif; COLOR: #333333;">44</SPAN></DIV></TD>
+    <TD                                                  style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: white 1pt solid; WIDTH: 104.25pt; BORDER-BOTTOM: #f2f2f2 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 5.4pt; BACKGROUND-COLOR: transparent;"     vAlign=top width=139>
+      <DIV 
+      style="MARGIN: 0cm; LINE-HEIGHT: 16pt;"><SPAN 
+      lang=EN-US 
+      style=" FONT-SIZE: 11pt; FONT-FAMILY: Arial, Helvetica, sans-serif; COLOR: #333333;">6</SPAN></DIV></TD></TR>
+  <TR style="">
+    <TD                                                style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: #f2f2f2 1pt solid; WIDTH: 104.25pt; BACKGROUND: #f2f2f2; BORDER-BOTTOM: #f2f2f2 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: #f2f2f2 1pt solid; PADDING-RIGHT: 5.4pt;"     vAlign=top width=139>
+      <DIV 
+      style="MARGIN: 0cm; LINE-HEIGHT: 16pt;"><SPAN 
+      lang=EN-US 
+      style=" FONT-SIZE: 11pt; FONT-FAMILY: Arial, Helvetica, sans-serif; COLOR: #333333;">9<SUP>th</SUP></SPAN></DIV></TD>
+    <TD                                                  style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: #f2f2f2 1pt solid; WIDTH: 104.25pt; BACKGROUND: #f2f2f2; BORDER-BOTTOM: #f2f2f2 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 5.4pt;"     vAlign=top width=139>
+      <DIV 
+      style="MARGIN: 0cm; LINE-HEIGHT: 16pt;"><SPAN 
+      lang=EN-US 
+      style=" FONT-SIZE: 11pt; FONT-FAMILY: Arial, Helvetica, sans-serif; COLOR: #333333;">4</SPAN></DIV></TD>
+    <TD                                                  style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: #f2f2f2 1pt solid; WIDTH: 104.25pt; BACKGROUND: #f2f2f2; BORDER-BOTTOM: #f2f2f2 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 5.4pt;"     vAlign=top width=139>
+      <DIV 
+      style="MARGIN: 0cm; LINE-HEIGHT: 16pt;"><SPAN 
+      lang=EN-US 
+      style=" FONT-SIZE: 11pt; FONT-FAMILY: Arial, Helvetica, sans-serif; COLOR: #333333;">7</SPAN></DIV></TD>
+    <TD                                                  style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: #f2f2f2 1pt solid; WIDTH: 104.25pt; BACKGROUND: #f2f2f2; BORDER-BOTTOM: #f2f2f2 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 5.4pt;"     vAlign=top width=139>
+      <DIV 
+      style="MARGIN: 0cm; LINE-HEIGHT: 16pt;"><SPAN 
+      lang=EN-US 
+      style=" FONT-SIZE: 11pt; FONT-FAMILY: Arial, Helvetica, sans-serif; COLOR: #333333;">57</SPAN></DIV></TD>
+    <TD                                                  style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: #f2f2f2 1pt solid; WIDTH: 104.25pt; BACKGROUND: #f2f2f2; BORDER-BOTTOM: #f2f2f2 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 5.4pt;"     vAlign=top width=139>
+      <DIV 
+      style="MARGIN: 0cm; LINE-HEIGHT: 16pt;"><SPAN 
+      lang=EN-US 
+      style=" FONT-SIZE: 11pt; FONT-FAMILY: Arial, Helvetica, sans-serif; COLOR: #333333;">7</SPAN></DIV></TD></TR>
+  <TR style="">
+    <TD                                                    style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: white 1pt solid; WIDTH: 104.25pt; BORDER-BOTTOM: #f2f2f2 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: white 1pt solid; PADDING-RIGHT: 5.4pt; BACKGROUND-COLOR: transparent;"     vAlign=top width=139>
+      <DIV 
+      style="MARGIN: 0cm; LINE-HEIGHT: 16pt;"><SPAN 
+      lang=EN-US 
+      style=" FONT-SIZE: 11pt; FONT-FAMILY: Arial, Helvetica, sans-serif; COLOR: #333333;">10<SUP>th</SUP></SPAN></DIV></TD>
+    <TD                                                  style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: white 1pt solid; WIDTH: 104.25pt; BORDER-BOTTOM: #f2f2f2 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 5.4pt; BACKGROUND-COLOR: transparent;"     vAlign=top width=139>
+      <DIV 
+      style="MARGIN: 0cm; LINE-HEIGHT: 16pt;"><SPAN 
+      lang=EN-US 
+      style=" FONT-SIZE: 11pt; FONT-FAMILY: Arial, Helvetica, sans-serif; COLOR: #333333;">4</SPAN></DIV></TD>
+    <TD                                                  style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: white 1pt solid; WIDTH: 104.25pt; BORDER-BOTTOM: #f2f2f2 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 5.4pt; BACKGROUND-COLOR: transparent;"     vAlign=top width=139>
+      <DIV 
+      style="MARGIN: 0cm; LINE-HEIGHT: 16pt;"><SPAN 
+      lang=EN-US 
+      style=" FONT-SIZE: 11pt; FONT-FAMILY: Arial, Helvetica, sans-serif; COLOR: #333333;">7</SPAN></DIV></TD>
+    <TD                                                  style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: white 1pt solid; WIDTH: 104.25pt; BORDER-BOTTOM: #f2f2f2 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 5.4pt; BACKGROUND-COLOR: transparent;"     vAlign=top width=139>
+      <DIV 
+      style="MARGIN: 0cm; LINE-HEIGHT: 16pt;"><SPAN 
+      lang=EN-US 
+      style=" FONT-SIZE: 11pt; FONT-FAMILY: Arial, Helvetica, sans-serif; COLOR: #333333;">64</SPAN></DIV></TD>
+    <TD                                                  style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: white 1pt solid; WIDTH: 104.25pt; BORDER-BOTTOM: #f2f2f2 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 5.4pt; BACKGROUND-COLOR: transparent;"     vAlign=top width=139>
+      <DIV 
+      style="MARGIN: 0cm; LINE-HEIGHT: 16pt;"><SPAN 
+      lang=EN-US 
+      style=" FONT-SIZE: 11pt; FONT-FAMILY: Arial, Helvetica, sans-serif; COLOR: #333333;">7</SPAN></DIV></TD></TR>
+  <TR style="">
+    <TD                                                    style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: #f2f2f2 1pt solid; WIDTH: 104.25pt; BACKGROUND: #f2f2f2; BORDER-BOTTOM: white 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: #f2f2f2 1pt solid; PADDING-RIGHT: 5.4pt;"     vAlign=top width=139>
+      <DIV 
+      style="MARGIN: 0cm; LINE-HEIGHT: 16pt;"><SPAN 
+      lang=EN-US 
+      style=" FONT-SIZE: 11pt; FONT-FAMILY: Arial, Helvetica, sans-serif; COLOR: #333333;">11<SUP>th</SUP></SPAN></DIV></TD>
+    <TD                                                      style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: #f2f2f2 1pt solid; WIDTH: 104.25pt; BACKGROUND: #f2f2f2; BORDER-BOTTOM: white 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 5.4pt;"     vAlign=top width=139>
+      <DIV 
+      style="MARGIN: 0cm; LINE-HEIGHT: 16pt;"><SPAN 
+      lang=EN-US 
+      style=" FONT-SIZE: 11pt; FONT-FAMILY: Arial, Helvetica, sans-serif; COLOR: #333333;">4</SPAN></DIV></TD>
+    <TD                                                      style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: #f2f2f2 1pt solid; WIDTH: 104.25pt; BACKGROUND: #f2f2f2; BORDER-BOTTOM: white 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 5.4pt;"     vAlign=top width=139>
+      <DIV 
+      style="MARGIN: 0cm; LINE-HEIGHT: 16pt;"><SPAN 
+      lang=EN-US 
+      style=" FONT-SIZE: 11pt; FONT-FAMILY: Arial, Helvetica, sans-serif; COLOR: #333333;">8</SPAN></DIV></TD>
+    <TD                                                      style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: #f2f2f2 1pt solid; WIDTH: 104.25pt; BACKGROUND: #f2f2f2; BORDER-BOTTOM: white 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 5.4pt;"     vAlign=top width=139>
+      <DIV 
+      style="MARGIN: 0cm; LINE-HEIGHT: 16pt;"><SPAN 
+      lang=EN-US 
+      style=" FONT-SIZE: 11pt; FONT-FAMILY: Arial, Helvetica, sans-serif; COLOR: #333333;">64</SPAN></DIV></TD>
+    <TD                                                      style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: #f2f2f2 1pt solid; WIDTH: 104.25pt; BACKGROUND: #f2f2f2; BORDER-BOTTOM: white 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 5.4pt;"     vAlign=top width=139>
+      <DIV 
+      style="MARGIN: 0cm; LINE-HEIGHT: 16pt;"><SPAN 
+      lang=EN-US 
+      style=" FONT-SIZE: 11pt; FONT-FAMILY: Arial, Helvetica, sans-serif; COLOR: #333333;">7</SPAN></DIV></TD></TR>
+  <TR style="">
+    <TD                                                style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: white 1pt solid; WIDTH: 104.25pt; BACKGROUND: white; BORDER-BOTTOM: white 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: white 1pt solid; PADDING-RIGHT: 5.4pt;"     vAlign=top width=139>
+      <DIV 
+      style="MARGIN: 0cm; LINE-HEIGHT: 16pt;"><SPAN 
+      lang=EN-US 
+      style=" FONT-SIZE: 11pt; FONT-FAMILY: Arial, Helvetica, sans-serif; COLOR: #333333;">12<SUP>th</SUP></SPAN></DIV></TD>
+    <TD                                                  style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: white 1pt solid; WIDTH: 104.25pt; BACKGROUND: white; BORDER-BOTTOM: white 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 5.4pt;"     vAlign=top width=139>
+      <DIV 
+      style="MARGIN: 0cm; LINE-HEIGHT: 16pt;"><SPAN 
+      lang=EN-US 
+      style=" FONT-SIZE: 11pt; FONT-FAMILY: Arial, Helvetica, sans-serif; COLOR: #333333;">5</SPAN></DIV></TD>
+    <TD                                                  style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: white 1pt solid; WIDTH: 104.25pt; BACKGROUND: white; BORDER-BOTTOM: white 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 5.4pt;"     vAlign=top width=139>
+      <DIV 
+      style="MARGIN: 0cm; LINE-HEIGHT: 16pt;"><SPAN 
+      lang=EN-US 
+      style=" FONT-SIZE: 11pt; FONT-FAMILY: Arial, Helvetica, sans-serif; COLOR: #333333;">8</SPAN></DIV></TD>
+    <TD                                                  style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: white 1pt solid; WIDTH: 104.25pt; BACKGROUND: white; BORDER-BOTTOM: white 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 5.4pt;"     vAlign=top width=139>
+      <DIV 
+      style="MARGIN: 0cm; LINE-HEIGHT: 16pt;"><SPAN 
+      lang=EN-US 
+      style=" FONT-SIZE: 11pt; FONT-FAMILY: Arial, Helvetica, sans-serif; COLOR: #333333;">64</SPAN></DIV></TD>
+    <TD                                                  style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: white 1pt solid; WIDTH: 104.25pt; BACKGROUND: white; BORDER-BOTTOM: white 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 5.4pt;"     vAlign=top width=139>
+      <DIV 
+      style="MARGIN: 0cm; LINE-HEIGHT: 16pt;"><SPAN 
+      lang=EN-US 
+      style=" FONT-SIZE: 11pt; FONT-FAMILY: Arial, Helvetica, sans-serif; COLOR: #333333;">7</SPAN></DIV></TD></TR>
+  <TR style="">
+    <TD                                                style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: #f2f2f2 1pt solid; WIDTH: 104.25pt; BACKGROUND: #f2f2f2; BORDER-BOTTOM: #f2f2f2 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: #f2f2f2 1pt solid; PADDING-RIGHT: 5.4pt;"     vAlign=top width=139>
+      <DIV 
+      style="MARGIN: 0cm; LINE-HEIGHT: 16pt;"><SPAN 
+      lang=EN-US 
+      style=" FONT-SIZE: 11pt; FONT-FAMILY: Arial, Helvetica, sans-serif; COLOR: #333333;">13<SUP>th</SUP></SPAN></DIV></TD>
+    <TD                                                  style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: #f2f2f2 1pt solid; WIDTH: 104.25pt; BACKGROUND: #f2f2f2; BORDER-BOTTOM: #f2f2f2 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 5.4pt;"     vAlign=top width=139>
+      <DIV 
+      style="MARGIN: 0cm; LINE-HEIGHT: 16pt;"><SPAN 
+      lang=EN-US 
+      style=" FONT-SIZE: 11pt; FONT-FAMILY: Arial, Helvetica, sans-serif; COLOR: #333333;">5</SPAN></DIV></TD>
+    <TD                                                  style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: #f2f2f2 1pt solid; WIDTH: 104.25pt; BACKGROUND: #f2f2f2; BORDER-BOTTOM: #f2f2f2 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 5.4pt;"     vAlign=top width=139>
+      <DIV 
+      style="MARGIN: 0cm; LINE-HEIGHT: 16pt;"><SPAN 
+      lang=EN-US 
+      style=" FONT-SIZE: 11pt; FONT-FAMILY: Arial, Helvetica, sans-serif; COLOR: #333333;">9</SPAN></DIV></TD>
+    <TD                                                  style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: #f2f2f2 1pt solid; WIDTH: 104.25pt; BACKGROUND: #f2f2f2; BORDER-BOTTOM: #f2f2f2 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 5.4pt;"     vAlign=top width=139>
+      <DIV 
+      style="MARGIN: 0cm; LINE-HEIGHT: 16pt;"><SPAN 
+      lang=EN-US 
+      style=" FONT-SIZE: 11pt; FONT-FAMILY: Arial, Helvetica, sans-serif; COLOR: #333333;">64</SPAN></DIV></TD>
+    <TD                                                  style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: #f2f2f2 1pt solid; WIDTH: 104.25pt; BACKGROUND: #f2f2f2; BORDER-BOTTOM: #f2f2f2 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 5.4pt;"     vAlign=top width=139>
+      <DIV 
+      style="MARGIN: 0cm; LINE-HEIGHT: 16pt;"><SPAN 
+      lang=EN-US 
+      style=" FONT-SIZE: 11pt; FONT-FAMILY: Arial, Helvetica, sans-serif; COLOR: #333333;">7</SPAN></DIV></TD></TR>
+  <TR style="">
+    <TD                                                    style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: white 1pt solid; WIDTH: 104.25pt; BORDER-BOTTOM: #f2f2f2 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: white 1pt solid; PADDING-RIGHT: 5.4pt; BACKGROUND-COLOR: transparent;"     vAlign=top width=139>
+      <DIV 
+      style="MARGIN: 0cm; LINE-HEIGHT: 16pt;"><SPAN 
+      lang=EN-US 
+      style=" FONT-SIZE: 11pt; FONT-FAMILY: Arial, Helvetica, sans-serif; COLOR: #333333;">14<SUP>th</SUP></SPAN></DIV></TD>
+    <TD                                                  style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: white 1pt solid; WIDTH: 104.25pt; BORDER-BOTTOM: #f2f2f2 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 5.4pt; BACKGROUND-COLOR: transparent;"     vAlign=top width=139>
+      <DIV 
+      style="MARGIN: 0cm; LINE-HEIGHT: 16pt;"><SPAN 
+      lang=EN-US 
+      style=" FONT-SIZE: 11pt; FONT-FAMILY: Arial, Helvetica, sans-serif; COLOR: #333333;">5</SPAN></DIV></TD>
+    <TD                                                  style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: white 1pt solid; WIDTH: 104.25pt; BORDER-BOTTOM: #f2f2f2 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 5.4pt; BACKGROUND-COLOR: transparent;"     vAlign=top width=139>
+      <DIV 
+      style="MARGIN: 0cm; LINE-HEIGHT: 16pt;"><SPAN 
+      lang=EN-US 
+      style=" FONT-SIZE: 11pt; FONT-FAMILY: Arial, Helvetica, sans-serif; COLOR: #333333;">9</SPAN></DIV></TD>
+    <TD                                                  style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: white 1pt solid; WIDTH: 104.25pt; BORDER-BOTTOM: #f2f2f2 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 5.4pt; BACKGROUND-COLOR: transparent;"     vAlign=top width=139>
+      <DIV 
+      style="MARGIN: 0cm; LINE-HEIGHT: 16pt;"><SPAN 
+      lang=EN-US 
+      style=" FONT-SIZE: 11pt; FONT-FAMILY: Arial, Helvetica, sans-serif; COLOR: #333333;">64</SPAN></DIV></TD>
+    <TD                                                  style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: white 1pt solid; WIDTH: 104.25pt; BORDER-BOTTOM: #f2f2f2 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 5.4pt; BACKGROUND-COLOR: transparent;"     vAlign=top width=139>
+      <DIV 
+      style="MARGIN: 0cm; LINE-HEIGHT: 16pt;"><SPAN 
+      lang=EN-US 
+      style=" FONT-SIZE: 11pt; FONT-FAMILY: Arial, Helvetica, sans-serif; COLOR: #333333;">7</SPAN></DIV></TD></TR>
+  <TR style="">
+    <TD                                                style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: #f2f2f2 1pt solid; WIDTH: 104.25pt; BACKGROUND: #f2f2f2; BORDER-BOTTOM: #f2f2f2 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: #f2f2f2 1pt solid; PADDING-RIGHT: 5.4pt;"     vAlign=top width=139>
+      <DIV 
+      style="MARGIN: 0cm; LINE-HEIGHT: 16pt;"><SPAN 
+      lang=EN-US 
+      style=" FONT-SIZE: 11pt; FONT-FAMILY: Arial, Helvetica, sans-serif; COLOR: #333333;">15<SUP>th</SUP></SPAN></DIV></TD>
+    <TD                                                  style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: #f2f2f2 1pt solid; WIDTH: 104.25pt; BACKGROUND: #f2f2f2; BORDER-BOTTOM: #f2f2f2 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 5.4pt;"     vAlign=top width=139>
+      <DIV 
+      style="MARGIN: 0cm; LINE-HEIGHT: 16pt;"><SPAN 
+      lang=EN-US 
+      style=" FONT-SIZE: 11pt; FONT-FAMILY: Arial, Helvetica, sans-serif; COLOR: #333333;">5</SPAN></DIV></TD>
+    <TD                                                  style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: #f2f2f2 1pt solid; WIDTH: 104.25pt; BACKGROUND: #f2f2f2; BORDER-BOTTOM: #f2f2f2 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 5.4pt;"     vAlign=top width=139>
+      <DIV 
+      style="MARGIN: 0cm; LINE-HEIGHT: 16pt;"><SPAN 
+      lang=EN-US 
+      style=" FONT-SIZE: 11pt; FONT-FAMILY: Arial, Helvetica, sans-serif; COLOR: #333333;">10</SPAN></DIV></TD>
+    <TD                                                  style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: #f2f2f2 1pt solid; WIDTH: 104.25pt; BACKGROUND: #f2f2f2; BORDER-BOTTOM: #f2f2f2 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 5.4pt;"     vAlign=top width=139>
+      <DIV 
+      style="MARGIN: 0cm; LINE-HEIGHT: 16pt;"><SPAN 
+      lang=EN-US 
+      style=" FONT-SIZE: 11pt; FONT-FAMILY: Arial, Helvetica, sans-serif; COLOR: #333333;">64</SPAN></DIV></TD>
+    <TD                                                  style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: #f2f2f2 1pt solid; WIDTH: 104.25pt; BACKGROUND: #f2f2f2; BORDER-BOTTOM: #f2f2f2 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 5.4pt;"     vAlign=top width=139>
+      <DIV 
+      style="MARGIN: 0cm; LINE-HEIGHT: 16pt;"><SPAN 
+      lang=EN-US 
+      style=" FONT-SIZE: 11pt; FONT-FAMILY: Arial, Helvetica, sans-serif; COLOR: #333333;">7</SPAN></DIV></TD></TR>
+  <TR style="">
+    <TD                                                    style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: white 1pt solid; WIDTH: 104.25pt; BORDER-BOTTOM: #f2f2f2 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: white 1pt solid; PADDING-RIGHT: 5.4pt; BACKGROUND-COLOR: transparent;"     vAlign=top width=139>
+      <DIV 
+      style="MARGIN: 0cm; LINE-HEIGHT: 16pt;"><SPAN 
+      lang=EN-US 
+      style=" FONT-SIZE: 11pt; FONT-FAMILY: Arial, Helvetica, sans-serif; COLOR: #333333;">16<SUP>th</SUP></SPAN></DIV></TD>
+    <TD                                                  style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: white 1pt solid; WIDTH: 104.25pt; BORDER-BOTTOM: #f2f2f2 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 5.4pt; BACKGROUND-COLOR: transparent;"     vAlign=top width=139>
+      <DIV 
+      style="MARGIN: 0cm; LINE-HEIGHT: 16pt;"><SPAN 
+      lang=EN-US 
+      style=" FONT-SIZE: 11pt; FONT-FAMILY: Arial, Helvetica, sans-serif; COLOR: #333333;">5</SPAN></DIV></TD>
+    <TD                                                  style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: white 1pt solid; WIDTH: 104.25pt; BORDER-BOTTOM: #f2f2f2 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 5.4pt; BACKGROUND-COLOR: transparent;"     vAlign=top width=139>
+      <DIV 
+      style="MARGIN: 0cm; LINE-HEIGHT: 16pt;"><SPAN 
+      lang=EN-US 
+      style=" FONT-SIZE: 11pt; FONT-FAMILY: Arial, Helvetica, sans-serif; COLOR: #333333;">10</SPAN></DIV></TD>
+    <TD                                                  style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: white 1pt solid; WIDTH: 104.25pt; BORDER-BOTTOM: #f2f2f2 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 5.4pt; BACKGROUND-COLOR: transparent;"     vAlign=top width=139>
+      <DIV 
+      style="MARGIN: 0cm; LINE-HEIGHT: 16pt;"><SPAN 
+      lang=EN-US 
+      style=" FONT-SIZE: 11pt; FONT-FAMILY: Arial, Helvetica, sans-serif; COLOR: #333333;">64</SPAN></DIV></TD>
+    <TD                                                  style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: white 1pt solid; WIDTH: 104.25pt; BORDER-BOTTOM: #f2f2f2 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 5.4pt; BACKGROUND-COLOR: transparent;"     vAlign=top width=139>
+      <DIV 
+      style="MARGIN: 0cm; LINE-HEIGHT: 16pt;"><SPAN 
+      lang=EN-US 
+      style=" FONT-SIZE: 11pt; FONT-FAMILY: Arial, Helvetica, sans-serif; COLOR: #333333;">7</SPAN></DIV></TD></TR>
+  <TR style="">
+    <TD                                                style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: #f2f2f2 1pt solid; WIDTH: 104.25pt; BACKGROUND: #f2f2f2; BORDER-BOTTOM: #f2f2f2 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: #f2f2f2 1pt solid; PADDING-RIGHT: 5.4pt;"     vAlign=top width=139>
+      <DIV 
+      style="MARGIN: 0cm; LINE-HEIGHT: 16pt;"><SPAN 
+      lang=EN-US 
+      style=" FONT-SIZE: 11pt; FONT-FAMILY: Arial, Helvetica, sans-serif; COLOR: #333333;">17<SUP>th</SUP></SPAN></DIV></TD>
+    <TD                                                  style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: #f2f2f2 1pt solid; WIDTH: 104.25pt; BACKGROUND: #f2f2f2; BORDER-BOTTOM: #f2f2f2 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 5.4pt;"     vAlign=top width=139>
+      <DIV 
+      style="MARGIN: 0cm; LINE-HEIGHT: 16pt;"><SPAN 
+      lang=EN-US 
+      style=" FONT-SIZE: 11pt; FONT-FAMILY: Arial, Helvetica, sans-serif; COLOR: #333333;">6</SPAN></DIV></TD>
+    <TD                                                  style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: #f2f2f2 1pt solid; WIDTH: 104.25pt; BACKGROUND: #f2f2f2; BORDER-BOTTOM: #f2f2f2 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 5.4pt;"     vAlign=top width=139>
+      <DIV 
+      style="MARGIN: 0cm; LINE-HEIGHT: 16pt;"><SPAN 
+      lang=EN-US 
+      style=" FONT-SIZE: 11pt; FONT-FAMILY: Arial, Helvetica, sans-serif; COLOR: #333333;">10</SPAN></DIV></TD>
+    <TD                                                  style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: #f2f2f2 1pt solid; WIDTH: 104.25pt; BACKGROUND: #f2f2f2; BORDER-BOTTOM: #f2f2f2 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 5.4pt;"     vAlign=top width=139>
+      <DIV 
+      style="MARGIN: 0cm; LINE-HEIGHT: 16pt;"><SPAN 
+      lang=EN-US 
+      style=" FONT-SIZE: 11pt; FONT-FAMILY: Arial, Helvetica, sans-serif; COLOR: #333333;">71</SPAN></DIV></TD>
+    <TD                                                  style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: #f2f2f2 1pt solid; WIDTH: 104.25pt; BACKGROUND: #f2f2f2; BORDER-BOTTOM: #f2f2f2 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 5.4pt;"     vAlign=top width=139>
+      <DIV 
+      style="MARGIN: 0cm; LINE-HEIGHT: 16pt;"><SPAN 
+      lang=EN-US 
+      style=" FONT-SIZE: 11pt; FONT-FAMILY: Arial, Helvetica, sans-serif; COLOR: #333333;">7</SPAN></DIV></TD></TR>
+  <TR style="">
+    <TD                                                    style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: white 1pt solid; WIDTH: 104.25pt; BORDER-BOTTOM: #f2f2f2 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: white 1pt solid; PADDING-RIGHT: 5.4pt; BACKGROUND-COLOR: transparent;"     vAlign=top width=139>
+      <DIV 
+      style="MARGIN: 0cm; LINE-HEIGHT: 16pt;"><SPAN 
+      lang=EN-US 
+      style=" FONT-SIZE: 11pt; FONT-FAMILY: Arial, Helvetica, sans-serif; COLOR: #333333;">18<SUP>th</SUP></SPAN></DIV></TD>
+    <TD                                                  style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: white 1pt solid; WIDTH: 104.25pt; BORDER-BOTTOM: #f2f2f2 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 5.4pt; BACKGROUND-COLOR: transparent;"     vAlign=top width=139>
+      <DIV 
+      style="MARGIN: 0cm; LINE-HEIGHT: 16pt;"><SPAN 
+      lang=EN-US 
+      style=" FONT-SIZE: 11pt; FONT-FAMILY: Arial, Helvetica, sans-serif; COLOR: #333333;">6</SPAN></DIV></TD>
+    <TD                                                  style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: white 1pt solid; WIDTH: 104.25pt; BORDER-BOTTOM: #f2f2f2 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 5.4pt; BACKGROUND-COLOR: transparent;"     vAlign=top width=139>
+      <DIV 
+      style="MARGIN: 0cm; LINE-HEIGHT: 16pt;"><SPAN 
+      lang=EN-US 
+      style=" FONT-SIZE: 11pt; FONT-FAMILY: Arial, Helvetica, sans-serif; COLOR: #333333;">11</SPAN></DIV></TD>
+    <TD                                                  style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: white 1pt solid; WIDTH: 104.25pt; BORDER-BOTTOM: #f2f2f2 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 5.4pt; BACKGROUND-COLOR: transparent;"     vAlign=top width=139>
+      <DIV 
+      style="MARGIN: 0cm; LINE-HEIGHT: 16pt;"><SPAN 
+      lang=EN-US 
+      style=" FONT-SIZE: 11pt; FONT-FAMILY: Arial, Helvetica, sans-serif; COLOR: #333333;">71</SPAN></DIV></TD>
+    <TD                                                  style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: white 1pt solid; WIDTH: 104.25pt; BORDER-BOTTOM: #f2f2f2 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 5.4pt; BACKGROUND-COLOR: transparent;"     vAlign=top width=139>
+      <DIV 
+      style="MARGIN: 0cm; LINE-HEIGHT: 16pt;"><SPAN 
+      lang=EN-US 
+      style=" FONT-SIZE: 11pt; FONT-FAMILY: Arial, Helvetica, sans-serif; COLOR: #333333;">7</SPAN></DIV></TD></TR>
+  <TR style="">
+    <TD                                                style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: #f2f2f2 1pt solid; WIDTH: 104.25pt; BACKGROUND: #f2f2f2; BORDER-BOTTOM: #f2f2f2 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: #f2f2f2 1pt solid; PADDING-RIGHT: 5.4pt;"     vAlign=top width=139>
+      <DIV 
+      style="MARGIN: 0cm; LINE-HEIGHT: 16pt;"><SPAN 
+      lang=EN-US 
+      style=" FONT-SIZE: 11pt; FONT-FAMILY: Arial, Helvetica, sans-serif; COLOR: #333333;">19<SUP>th</SUP></SPAN></DIV></TD>
+    <TD                                                  style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: #f2f2f2 1pt solid; WIDTH: 104.25pt; BACKGROUND: #f2f2f2; BORDER-BOTTOM: #f2f2f2 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 5.4pt;"     vAlign=top width=139>
+      <DIV 
+      style="MARGIN: 0cm; LINE-HEIGHT: 16pt;"><SPAN 
+      lang=EN-US 
+      style=" FONT-SIZE: 11pt; FONT-FAMILY: Arial, Helvetica, sans-serif; COLOR: #333333;">6</SPAN></DIV></TD>
+    <TD                                                  style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: #f2f2f2 1pt solid; WIDTH: 104.25pt; BACKGROUND: #f2f2f2; BORDER-BOTTOM: #f2f2f2 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 5.4pt;"     vAlign=top width=139>
+      <DIV 
+      style="MARGIN: 0cm; LINE-HEIGHT: 16pt;"><SPAN 
+      lang=EN-US 
+      style=" FONT-SIZE: 11pt; FONT-FAMILY: Arial, Helvetica, sans-serif; COLOR: #333333;">11</SPAN></DIV></TD>
+    <TD                                                  style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: #f2f2f2 1pt solid; WIDTH: 104.25pt; BACKGROUND: #f2f2f2; BORDER-BOTTOM: #f2f2f2 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 5.4pt;"     vAlign=top width=139>
+      <DIV 
+      style="MARGIN: 0cm; LINE-HEIGHT: 16pt;"><SPAN 
+      lang=EN-US 
+      style=" FONT-SIZE: 11pt; FONT-FAMILY: Arial, Helvetica, sans-serif; COLOR: #333333;">71</SPAN></DIV></TD>
+    <TD                                                  style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: #f2f2f2 1pt solid; WIDTH: 104.25pt; BACKGROUND: #f2f2f2; BORDER-BOTTOM: #f2f2f2 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 5.4pt;"     vAlign=top width=139>
+      <DIV 
+      style="MARGIN: 0cm; LINE-HEIGHT: 16pt;"><SPAN 
+      lang=EN-US 
+      style=" FONT-SIZE: 11pt; FONT-FAMILY: Arial, Helvetica, sans-serif; COLOR: #333333;">7</SPAN></DIV></TD></TR>
+  <TR style="">
+    <TD                                                style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: white 1pt solid; WIDTH: 104.25pt; BORDER-BOTTOM: white 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: white 1pt solid; PADDING-RIGHT: 5.4pt; BACKGROUND-COLOR: transparent;"     vAlign=top width=139>
+      <DIV 
+      style="MARGIN: 0cm; LINE-HEIGHT: 16pt;"><SPAN 
+      lang=EN-US 
+      style=" FONT-SIZE: 11pt; FONT-FAMILY: Arial, Helvetica, sans-serif; COLOR: #333333;">20<SUP>th</SUP></SPAN></DIV></TD>
+    <TD                                                  style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: white 1pt solid; WIDTH: 104.25pt; BORDER-BOTTOM: white 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 5.4pt; BACKGROUND-COLOR: transparent;"     vAlign=top width=139>
+      <DIV 
+      style="MARGIN: 0cm; LINE-HEIGHT: 16pt;"><SPAN 
+      lang=EN-US 
+      style=" FONT-SIZE: 11pt; FONT-FAMILY: Arial, Helvetica, sans-serif; COLOR: #333333;">6</SPAN></DIV></TD>
+    <TD                                                  style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: white 1pt solid; WIDTH: 104.25pt; BORDER-BOTTOM: white 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 5.4pt; BACKGROUND-COLOR: transparent;"     vAlign=top width=139>
+      <DIV 
+      style="MARGIN: 0cm; LINE-HEIGHT: 16pt;"><SPAN 
+      lang=EN-US 
+      style=" FONT-SIZE: 11pt; FONT-FAMILY: Arial, Helvetica, sans-serif; COLOR: #333333;">11</SPAN></DIV></TD>
+    <TD                                                  style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: white 1pt solid; WIDTH: 104.25pt; BORDER-BOTTOM: white 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 5.4pt; BACKGROUND-COLOR: transparent;"     vAlign=top width=139>
+      <DIV 
+      style="MARGIN: 0cm; LINE-HEIGHT: 16pt;"><SPAN 
+      lang=EN-US 
+      style=" FONT-SIZE: 11pt; FONT-FAMILY: Arial, Helvetica, sans-serif; COLOR: #333333;">71</SPAN></DIV></TD>
+    <TD                                                  style="BORDER-TOP: #f0f0f0; BORDER-RIGHT: white 1pt solid; WIDTH: 104.25pt; BORDER-BOTTOM: white 1pt solid; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm; PADDING-LEFT: 5.4pt; BORDER-LEFT: #f0f0f0; PADDING-RIGHT: 5.4pt; BACKGROUND-COLOR: transparent;"     vAlign=top width=139>
+      <DIV 
+      style="MARGIN: 0cm; LINE-HEIGHT: 16pt;"><SPAN 
+      lang=EN-US 
+      style=" FONT-SIZE: 11pt; FONT-FAMILY: Arial, Helvetica, sans-serif; COLOR: #333333;">7</SPAN></DIV></TD></TR></TABLE>
+<DIV class="paragraph text-align-type-justify" 
+style="TEXT-ALIGN: justify; MARGIN: 0pt; LINE-HEIGHT: 16pt;"><SPAN 
+style=" FONT-SIZE: 11pt; FONT-FAMILY: Arial, Helvetica, sans-serif; VERTICAL-ALIGN: baseline; BACKGROUND: none transparent scroll repeat 0% 0%; FONT-WEIGHT: bold; COLOR: #800000; FONT-STYLE: normal; LETTER-SPACING: 0pt;">灵能 Psionics </SPAN></DIV>
+<DIV class="paragraph text-align-type-justify" 
+style="TEXT-ALIGN: justify; MARGIN: 0pt; LINE-HEIGHT: 16pt;"><SPAN 
+style=" FONT-SIZE: 11pt; FONT-FAMILY: Arial, Helvetica, sans-serif; VERTICAL-ALIGN: baseline; BACKGROUND: none transparent scroll repeat 0% 0%; FONT-WEIGHT: normal; COLOR: #333333; FONT-STYLE: normal; LETTER-SPACING: 0pt;">作为一个灵能修习者，你可以掌握并使用</SPAN><SPAN 
+style=" FONT-SIZE: 11pt; FONT-FAMILY: Arial, Helvetica, sans-serif; VERTICAL-ALIGN: baseline; BACKGROUND: none transparent scroll repeat 0% 0%; FONT-WEIGHT: bold; COLOR: #333333; FONT-STYLE: normal; LETTER-SPACING: 0pt;">灵能天赋talent</SPAN><SPAN 
+style=" FONT-SIZE: 11pt; FONT-FAMILY: Arial, Helvetica, sans-serif; VERTICAL-ALIGN: baseline; BACKGROUND: none transparent scroll repeat 0% 0%; FONT-WEIGHT: normal; COLOR: #333333; FONT-STYLE: normal; LETTER-SPACING: 0pt;">和</SPAN><SPAN 
+style=" FONT-SIZE: 11pt; FONT-FAMILY: Arial, Helvetica, sans-serif; VERTICAL-ALIGN: baseline; BACKGROUND: none transparent scroll repeat 0% 0%; FONT-WEIGHT: bold; COLOR: #333333; FONT-STYLE: normal; LETTER-SPACING: 0pt;">灵能灵术discipline</SPAN><SPAN 
+style=" FONT-SIZE: 11pt; FONT-FAMILY: Arial, Helvetica, sans-serif; VERTICAL-ALIGN: baseline; BACKGROUND: none transparent scroll repeat 0% 0%; FONT-WEIGHT: normal; COLOR: #333333; FONT-STYLE: normal; LETTER-SPACING: 0pt;">，灵能是一种魔法使用的特殊形式，不同于施法。 </SPAN></DIV>
+<DIV class="paragraph text-align-type-justify" 
+style="TEXT-ALIGN: justify; MARGIN: 0pt; LINE-HEIGHT: 16pt;"><SPAN 
+style=" FONT-SIZE: 11pt; FONT-FAMILY: Arial, Helvetica, sans-serif; VERTICAL-ALIGN: baseline; BACKGROUND: none transparent scroll repeat 0% 0%; FONT-WEIGHT: bold; COLOR: #800000; FONT-STYLE: normal; LETTER-SPACING: 0pt;">灵能天赋</SPAN></DIV>
+<DIV class="paragraph text-align-type-justify" 
+style="TEXT-ALIGN: justify; MARGIN: 0pt; LINE-HEIGHT: 16pt;"><SPAN 
+style=" FONT-SIZE: 11pt; FONT-FAMILY: Arial, Helvetica, sans-serif; VERTICAL-ALIGN: baseline; BACKGROUND: none transparent scroll repeat 0% 0%; FONT-WEIGHT: normal; COLOR: #333333; FONT-STYLE: normal; LETTER-SPACING: 0pt;">一个灵能天赋是你掌握的一种微型灵能效果。在1级时，你知晓一个由你选择的灵能天赋。你会在更高级时，学会额外的由你选择的灵能天赋。 
+</SPAN></DIV>
+<DIV class="paragraph text-align-type-justify" 
+style="TEXT-ALIGN: justify; MARGIN: 0pt; LINE-HEIGHT: 16pt;"><SPAN 
+style=" FONT-SIZE: 11pt; FONT-FAMILY: Arial, Helvetica, sans-serif; VERTICAL-ALIGN: baseline; BACKGROUND: none transparent scroll repeat 0% 0%; FONT-WEIGHT: normal; COLOR: #333333; FONT-STYLE: normal; LETTER-SPACING: 0pt;">秘术师表格中给出的"已知天赋"一列显示了你在各个等级已知的天赋数量；当此数字增加时，你可以知晓一个由你选择的新天赋。</SPAN></DIV>
+<DIV class="paragraph text-align-type-justify" 
+style="TEXT-ALIGN: justify; MARGIN: 0pt; LINE-HEIGHT: 16pt;"><SPAN 
+style=" FONT-SIZE: 11pt; FONT-FAMILY: Arial, Helvetica, sans-serif; VERTICAL-ALIGN: baseline; BACKGROUND: none transparent scroll repeat 0% 0%; FONT-WEIGHT: bold; COLOR: #800000; FONT-STYLE: normal; LETTER-SPACING: 0pt;">灵能灵术 </SPAN></DIV>
+<DIV class="paragraph text-align-type-justify" 
+style="TEXT-ALIGN: justify; MARGIN: 0pt; LINE-HEIGHT: 16pt;"><SPAN 
+style=" FONT-SIZE: 11pt; FONT-FAMILY: Arial, Helvetica, sans-serif; VERTICAL-ALIGN: baseline; BACKGROUND: none transparent scroll repeat 0% 0%; FONT-WEIGHT: normal; COLOR: #333333; FONT-STYLE: normal; LETTER-SPACING: 0pt;">一个灵能灵术是一套让灵能使用者得以展现心灵异能的能力。秘术师同一时间能掌握的灵术十分有限。</SPAN></DIV>
+<DIV class="paragraph text-align-type-justify" 
+style="TEXT-ALIGN: justify; MARGIN: 0pt; LINE-HEIGHT: 16pt;"><SPAN 
+style=" FONT-SIZE: 11pt; FONT-FAMILY: Arial, Helvetica, sans-serif; VERTICAL-ALIGN: baseline; BACKGROUND: none transparent scroll repeat 0% 0%; FONT-WEIGHT: normal; COLOR: #333333; FONT-STYLE: normal; LETTER-SPACING: 0pt;">表格中给出的"已知灵术"一列显示了你在各个等级已知的灵术总数；当此数字增加时，你可以知晓一个由你选择的新灵术。</SPAN></DIV>
+<DIV class="paragraph text-align-type-justify" 
+style="TEXT-ALIGN: justify; MARGIN: 0pt; LINE-HEIGHT: 16pt;"><SPAN 
+style=" FONT-SIZE: 11pt; FONT-FAMILY: Arial, Helvetica, sans-serif; VERTICAL-ALIGN: baseline; BACKGROUND: none transparent scroll repeat 0% 0%; FONT-WEIGHT: normal; COLOR: #333333; FONT-STYLE: normal; LETTER-SPACING: 0pt;">另外，你每提升一个等级，都可以将你已知的一个灵术替换为另一个由你选择的灵术。</SPAN></DIV>
+<DIV class="paragraph text-align-type-justify" 
+style="TEXT-ALIGN: justify; MARGIN: 0pt; LINE-HEIGHT: 16pt;"><SPAN 
+style=" FONT-SIZE: 11pt; FONT-FAMILY: Arial, Helvetica, sans-serif; VERTICAL-ALIGN: baseline; BACKGROUND: none transparent scroll repeat 0% 0%; FONT-WEIGHT: bold; COLOR: #800000; FONT-STYLE: normal; LETTER-SPACING: 0pt;">灵力点 </SPAN></DIV>
+<DIV class="paragraph text-align-type-justify" 
+style="TEXT-ALIGN: justify; MARGIN: 0pt; LINE-HEIGHT: 16pt;"><SPAN 
+style=" FONT-SIZE: 11pt; FONT-FAMILY: Arial, Helvetica, sans-serif; VERTICAL-ALIGN: baseline; BACKGROUND: none transparent scroll repeat 0% 0%; FONT-WEIGHT: normal; COLOR: #333333; FONT-STYLE: normal; LETTER-SPACING: 0pt;">你具有一种可以被你已知的灵能灵术使用的内在储备的能量。这种能量以灵力点的形式显现。每个灵能灵术均描述了当你投入特定数量的灵力点时，可以通过它产生何种效应。顺带一提，灵能天赋并不需要使用灵力点。</SPAN></DIV>
+<DIV class="paragraph text-align-type-justify" 
+style="TEXT-ALIGN: justify; MARGIN: 0pt; LINE-HEIGHT: 16pt;"><SPAN 
+style=" FONT-SIZE: 11pt; FONT-FAMILY: Arial, Helvetica, sans-serif; VERTICAL-ALIGN: baseline; BACKGROUND: none transparent scroll repeat 0% 0%; FONT-WEIGHT: normal; COLOR: #333333; FONT-STYLE: normal; LETTER-SPACING: 0pt;">你的灵能职业等级决定了你具有的灵力点数量，如表中给出的"灵力点"一列所示的那样，表上的数字意为你的灵力点的数量上限。</SPAN></DIV>
+<DIV class="paragraph text-align-type-justify" 
+style="TEXT-ALIGN: justify; MARGIN: 0pt; LINE-HEIGHT: 16pt;"><SPAN 
+style=" FONT-SIZE: 11pt; FONT-FAMILY: Arial, Helvetica, sans-serif; VERTICAL-ALIGN: baseline; BACKGROUND: none transparent scroll repeat 0% 0%; FONT-WEIGHT: normal; COLOR: #333333; FONT-STYLE: normal; LETTER-SPACING: 0pt;">在你完成一次长休后，你的灵力点总是会恢复到的数量上限。你拥有的灵力点数量无法低于0或高于你的灵力点数量上限。</SPAN></DIV>
+<DIV class="paragraph text-align-type-justify" 
+style="TEXT-ALIGN: justify; MARGIN: 0pt; LINE-HEIGHT: 16pt;"><SPAN 
+style=" FONT-SIZE: 11pt; FONT-FAMILY: Arial, Helvetica, sans-serif; VERTICAL-ALIGN: baseline; BACKGROUND: none transparent scroll repeat 0% 0%; FONT-WEIGHT: bold; COLOR: #800000; FONT-STYLE: normal; LETTER-SPACING: 0pt;">灵力限制</SPAN></DIV>
+<DIV class="paragraph text-align-type-justify" 
+style="TEXT-ALIGN: justify; MARGIN: 0pt; LINE-HEIGHT: 16pt;"><SPAN 
+style=" FONT-SIZE: 11pt; FONT-FAMILY: Arial, Helvetica, sans-serif; VERTICAL-ALIGN: baseline; BACKGROUND: none transparent scroll repeat 0% 0%; FONT-WEIGHT: normal; COLOR: #333333; FONT-STYLE: normal; LETTER-SPACING: 0pt;">尽管你有着可观的灵能能量，但你在引导这股能力时仍需要训练与练习。</SPAN></DIV>
+<DIV class="paragraph text-align-type-justify" 
+style="TEXT-ALIGN: justify; MARGIN: 0pt; LINE-HEIGHT: 16pt;"><SPAN 
+style=" FONT-SIZE: 11pt; FONT-FAMILY: Arial, Helvetica, sans-serif; VERTICAL-ALIGN: baseline; BACKGROUND: none transparent scroll repeat 0% 0%; FONT-WEIGHT: normal; COLOR: #333333; FONT-STYLE: normal; LETTER-SPACING: 0pt;">你能用于激活一个灵术的灵力点数量有着限制。此限制基于你的灵能等级，如同表中给出的"灵力限制"一列所示。</SPAN></DIV>
+<DIV class="paragraph text-align-type-justify" 
+style="TEXT-ALIGN: justify; MARGIN: 0pt; LINE-HEIGHT: 16pt;"><SPAN 
+style=" FONT-SIZE: 11pt; FONT-FAMILY: Arial, Helvetica, sans-serif; VERTICAL-ALIGN: baseline; BACKGROUND: none transparent scroll repeat 0% 0%; FONT-WEIGHT: bold; COLOR: #800000; FONT-STYLE: normal; LETTER-SPACING: 0pt;">心灵集中 </SPAN></DIV>
+<DIV class="paragraph text-align-type-justify" 
+style="TEXT-ALIGN: justify; MARGIN: 0pt; LINE-HEIGHT: 16pt;"><SPAN 
+style=" FONT-SIZE: 11pt; FONT-FAMILY: Arial, Helvetica, sans-serif; VERTICAL-ALIGN: baseline; BACKGROUND: none transparent scroll repeat 0% 0%; FONT-WEIGHT: normal; COLOR: #333333; FONT-STYLE: normal; LETTER-SPACING: 0pt;">你可以在将你的心灵能量集中到你的一个灵术上，以从中获取持续性的增益效应。</SPAN></DIV>
+<DIV class="paragraph text-align-type-justify" 
+style="TEXT-ALIGN: justify; MARGIN: 0pt; LINE-HEIGHT: 16pt;"><SPAN 
+style=" FONT-SIZE: 11pt; FONT-FAMILY: Arial, Helvetica, sans-serif; VERTICAL-ALIGN: baseline; BACKGROUND: none transparent scroll repeat 0% 0%; FONT-WEIGHT: normal; COLOR: #333333; FONT-STYLE: normal; LETTER-SPACING: 0pt;">以一个附赠动作，你可以选择一个你的灵术并得到其心灵集中增益，这详述于对应灵术的描述中。该增益持续到你陷入失能状态或使用另一个附赠动作来选择一个不同灵能集中增益为止。你在同一时间仅能拥有一个心灵集中增益，且在一个灵术上使用心灵集中并不会限制你使用其他灵术的能力选项。</SPAN></DIV>
+<DIV class="paragraph text-align-type-justify" 
+style="TEXT-ALIGN: justify; MARGIN: 0pt; LINE-HEIGHT: 16pt;"><SPAN 
+style=" FONT-SIZE: 11pt; FONT-FAMILY: Arial, Helvetica, sans-serif; VERTICAL-ALIGN: baseline; BACKGROUND: none transparent scroll repeat 0% 0%; FONT-WEIGHT: bold; COLOR: #800000; FONT-STYLE: normal; LETTER-SPACING: 0pt;">灵能属性Pisonic Ability</SPAN></DIV>
+<DIV class="paragraph text-align-type-justify" 
+style="TEXT-ALIGN: justify; MARGIN: 0pt; LINE-HEIGHT: 16pt;"><SPAN 
+style=" FONT-SIZE: 11pt; FONT-FAMILY: Arial, Helvetica, sans-serif; VERTICAL-ALIGN: baseline; BACKGROUND: none transparent scroll repeat 0% 0%; FONT-WEIGHT: normal; COLOR: #333333; FONT-STYLE: normal; LETTER-SPACING: 0pt;">智力是你的灵术的灵能属性。你用你的智力调整值来决定你灵术豁免DC和灵术攻击调整值。</SPAN></DIV>
+<DIV class="paragraph text-align-type-justify" 
+style="TEXT-ALIGN: justify; MARGIN: 0pt; LINE-HEIGHT: 16pt;"><SPAN 
+style=" FONT-SIZE: 11pt; FONT-FAMILY: Arial, Helvetica, sans-serif; VERTICAL-ALIGN: baseline; BACKGROUND: none transparent scroll repeat 0% 0%; FONT-WEIGHT: bold; COLOR: #333333; FONT-STYLE: normal; LETTER-SPACING: 0pt;">灵术豁免DC</SPAN><SPAN 
+style=" FONT-SIZE: 11pt; FONT-FAMILY: Arial, Helvetica, sans-serif; VERTICAL-ALIGN: baseline; BACKGROUND: none transparent scroll repeat 0% 0%; FONT-WEIGHT: normal; COLOR: #333333; FONT-STYLE: normal; LETTER-SPACING: 0pt;">=8+你的智力属性调整值+你的熟练加值</SPAN></DIV>
+<DIV class="paragraph text-align-type-justify" 
+style="TEXT-ALIGN: justify; MARGIN: 0pt; LINE-HEIGHT: 16pt;"><SPAN 
+style=" FONT-SIZE: 11pt; FONT-FAMILY: Arial, Helvetica, sans-serif; VERTICAL-ALIGN: baseline; BACKGROUND: none transparent scroll repeat 0% 0%; FONT-WEIGHT: bold; COLOR: #333333; FONT-STYLE: normal; LETTER-SPACING: 0pt;">灵术攻击调整值</SPAN><SPAN 
+style=" FONT-SIZE: 11pt; FONT-FAMILY: Arial, Helvetica, sans-serif; VERTICAL-ALIGN: baseline; BACKGROUND: none transparent scroll repeat 0% 0%; FONT-WEIGHT: normal; COLOR: #333333; FONT-STYLE: normal; LETTER-SPACING: 0pt;">=你的智力属性调整值+你的熟练加值</SPAN></DIV></DIV></DIV>
+</body>
 </html>
